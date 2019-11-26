@@ -1,0 +1,194 @@
+Appendix
+
+# Dataset
+
+$schema: https://schemas.opendatacube.org/dataset
+
+id: 1b03e7bf-6b64-50bc-9d2b-7ac823ee1ffe
+
+
+
+label: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06
+
+product:
+
+  name: usgs_ls8c_level2_2
+
+  href: https://collections.dea.ga.gov.au/product/usgs_ls8c_level2_2
+
+
+
+crs: epsg:32636
+
+geometry:
+
+  type: Polygon
+
+  coordinates: [[[381315.0, -44085.0], [153885.0, -44085.0], [153885.0, -276315.0],
+
+      [381315.0, -276315.0], [381315.0, -44085.0]]]
+
+grids:
+
+  default:
+
+    shape: [7741, 7581]
+
+    transform: [30.0, 0.0, 153885.0, 0.0, -30.0, -44085.0, 0.0, 0.0, 1.0]
+
+
+
+properties:
+
+  datetime: 2013-07-06 08:09:53.547344Z
+
+  eo:cloud_cover: 1.73
+
+  eo:gsd: 30.0  # Ground sample distance (m)
+
+  eo:instrument: OLI_TIRS
+
+  eo:platform: landsat-8
+
+  eo:sun_azimuth: 46.69628125
+
+  eo:sun_elevation: 53.73858805
+
+  landsat:collection_number: 2
+
+  landsat:geometric_rmse_model_x: 3.647
+
+  landsat:geometric_rmse_model_y: 4.385
+
+  landsat:geometric_rmse_verify: 2.91
+
+  landsat:ground_control_points_model: 720
+
+  landsat:ground_control_points_verify: 274
+
+  landsat:ground_control_points_version: 51
+
+  landsat:landsat_product_id: LC08_L1TP_172061_20130706_20190912_02_T1
+
+  landsat:landsat_scene_id: LC81720612013187LGN01
+
+  landsat:processing_software_version: LPGS_Unknown
+
+  landsat:station_id: LGN
+
+  landsat:wrs_path: 172
+
+  landsat:wrs_row: 61
+
+  odc:dataset_version: 2.0.20190912
+
+  odc:file_format: GeoTIFF
+
+  odc:processing_datetime: 2019-09-12 21:04:11Z
+
+  odc:producer: usgs.gov
+
+  odc:product_family: level2
+
+  odc:region_code: '172061'
+
+
+
+measurements:
+
+  coastal_aerosol:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_sr-b1.tif
+
+  blue:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_sr-b2.tif
+
+  green:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_sr-b3.tif
+
+  red:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_sr-b4.tif
+
+  nir:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_sr-b5.tif
+
+  swir_1:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_sr-b6.tif
+
+  swir_2:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_sr-b7.tif
+
+  surface_temperature:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_st-b10.tif
+
+  thermal_radiance:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_thermal-radiance.tif
+
+  upwell_radiance:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_upwell-radiance.tif
+
+  downwell_radiance:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_downwell-radiance.tif
+
+  atmospheric_transmittance:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_atmospheric-transmittance.tif
+
+  emissivity:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_emissivity.tif
+
+  emissivity_stdev:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_emissivity-stdev.tif
+
+  cloud_distance:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_cloud-distance.tif
+
+  quality_l2_aerosol:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_quality-l2-aerosol.tif
+
+  quality_l2_surface_temperature:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_quality-l2-surface-temperature.tif
+
+  quality_l1_pixel:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_quality-l1-pixel.tif
+
+  quality_l1_radiometric_saturation:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06_quality-l1-radiometric-saturation.tif
+
+
+
+accessories:
+
+  metadata:landsat_mtl:
+
+    path: LC08_L2SP_172061_20130706_20190912_02_T1_MTL.txt
+
+  checksum:sha1:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06.sha1
+
+  metadata:processor:
+
+    path: usgs_ls8c_level2_2-0-20190912_172061_2013-07-06.proc-info.yaml
+
+
+
+lineage: {}
+
