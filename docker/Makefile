@@ -33,3 +33,6 @@ index:
 
 test-elastic:
 	docker-compose exec kibana curl elasticsearch:9200
+
+test-index-lib:
+	docker-compose exec jupyter python3 /opt/indexc2/lib/tests/test_xml.py
