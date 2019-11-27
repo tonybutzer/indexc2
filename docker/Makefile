@@ -29,3 +29,7 @@ index:
 
 
 # http://dea-public-data.s3-website-ap-southeast-2.amazonaws.com/?prefix=ewater/cambodia_cube/output_2014/ls_level2/
+
+
+test-elastic:
+	docker-compose exec kibana curl elasticsearch:9200

@@ -14,8 +14,13 @@ This script crawls a rwanda director of &*.xml files
 import boto3
 import logging
 import os
+import uuid
 
 from c2indexLib.meta_blob_from_xml import MetaBlob
+
+from c2indexLib.satellite_ref import satellite_ref
+from c2indexLib.satellite_ref import get_band_file_map
+from c2indexLib.projection_stuff import get_projection_info
 
 
 def get_xml_string(file):
@@ -35,6 +40,87 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
         xml_raw = xml_string
     meta_blob = MetaBlob(directory, xml_raw)
     meta_blob.get_global_metadata()
+
+    ####
+    level = meta_blob.product_id.split('_')[1]
+    images, product_type = satellite_ref(meta_blob.satellite)
+    print("IMAGES",images)
+    center_dt = meta_blob.acquisition_date + " " + meta_blob.scene_center_time
+    start_time = center_dt
+    end_time = center_dt
+
+    #####
+
+    print(meta_blob.band_dict)
+    print("FILE_NAME_BAND_4: ", meta_blob.band_dict['FILE_NAME_BAND_4'])
+
+    geo_guinea_pig = meta_blob.band_dict['FILE_NAME_BAND_4']
+
+    # spatial_ref = get_projection_info(geo_guinea_pig)
+
+    # TONY FIX ythie HARDCODE soon!
+
+    # spatial_ref = 'epsg:5072'
+    spatial_ref = 'epsg:32631'
+
+    #####
+
+    westxf = float(meta_blob.westx) * 1.0
+    eastxf = float(meta_blob.eastx) * 1.0
+    northyf = float(meta_blob.northy) * 1.0
+    southyf = float(meta_blob.southy) * 1.0
+
+    geo_ref_points = {
+          'ul':
+             {'x': westxf,
+              'y': northyf},
+          'ur':
+             {'x': eastxf,
+              'y': northyf},
+          'lr':
+             {'x': eastxf,
+              'y': southyf},
+          'll':
+             {'x': westxf,
+              'y': southyf}}
+
+    print("COORD=", meta_blob.coord)
+    print("UPPER_LEFT=", geo_ref_points['ul'])
+    docdict = {
+        'id': str(uuid.uuid4()),
+        'processing_level': str(level),
+        'product_type': product_type,
+        'creation_dt': meta_blob.acquisition_date,
+        'platform': {'code': meta_blob.satellite},
+        'instrument': {'name': meta_blob.instrument},
+        'extent': {
+            'from_dt': str(start_time),
+            'to_dt': str(end_time),
+            'center_dt': str(center_dt),
+            'coord': meta_blob.coord,
+        },
+        'format': {'name': 'GeoTiff'},
+
+        'grid_spatial': {
+            'projection': {
+                'geo_ref_points': geo_ref_points,
+                'spatial_reference': spatial_ref,
+            }
+        },
+        'image': {
+            'bands': {
+                image[1]: {
+                    'path': meta_blob.band_dict[get_band_file_map(image[1])],
+                    'layer': 1,
+                } for image in images
+            }
+        },
+
+        'lineage': {'source_datasets': {}}
+    }
+    print (docdict)
+    return docdict
+
 
 
 def get_metadata_docs_bucket_xml(bucket_name, prefix):

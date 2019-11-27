@@ -140,6 +140,7 @@ class MetaBlob:
                 "FILE_NAME_BAND_5",
                 "FILE_NAME_BAND_6",
                 "FILE_NAME_BAND_7",
+                "FILE_NAME_THERMAL_RADIANCE",
                 "FILE_NAME_QUALITY_L2_AEROSOL",
                 "FILE_NAME_QUALITY_L1_PIXEL",
                 ]
@@ -147,7 +148,7 @@ class MetaBlob:
         # print(type(xmldoc))
         for band_name in bands:
             print(band_name)
-            band_file_name = doc.find(".//" + band_name).text
+            band_file_name = self.directory + doc.find(".//" + band_name).text
             print(band_file_name)
             self.band_dict[band_name] = band_file_name
         pp = pprint.PrettyPrinter(depth=6)
