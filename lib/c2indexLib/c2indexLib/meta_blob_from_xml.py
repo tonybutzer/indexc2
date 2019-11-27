@@ -33,13 +33,17 @@ class MetaBlob:
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
         doc = ElementTree.fromstring(xmlstring)
         
-        self.data_provider = doc.find('.//data_provider').text
-        self.satellite = doc.find('.//satellite').text
-        self.instrument = doc.find('.//instrument').text
-        self.acquisition_date = doc.find('.//acquisition_date').text
-        self.scene_center_time = doc.find('.//scene_center_time').text
-        self.product_id =  doc.find('.//product_id').text
-        self.lpgs_metadata_file = doc.find('.//lpgs_metadata_file').text
+        # self.data_provider = doc.find('.//data_provider').text
+        self.data_provider = doc.find('.//ORIGIN').text
+        # self.satellite = doc.find('.//SATELLITE').text
+        self.satellite = doc.find('.//SPACECRAFT_ID').text
+        # self.instrument = doc.find('.//INSTRUMENT').text
+        self.instrument = doc.find('.//SENSOR_ID').text
+        # self.acquisition_date = doc.find('.//ACQUISITION_DATE').text
+        self.acquisition_date = doc.find('.//DATE_ACQUIRED').text
+        self.scene_center_time = doc.find('.//SCENE_CENTER_TIME').text
+        self.product_id =  doc.find('.//LANDSAT_PRODUCT_ID').text
+        self.lpgs_metadata_file = doc.find('.//FILE_NAME_METADATA_XML').text
 
 
 
@@ -60,24 +64,31 @@ class MetaBlob:
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
         doc = ElementTree.fromstring(xmlstring)
 
-        self.west = doc.find('.//bounding_coordinates/west').text
-        self.east = doc.find('.//bounding_coordinates/east').text
-        self.north = doc.find('.//bounding_coordinates/north').text
-        self.south = doc.find('.//bounding_coordinates/south').text
+        self.ul_lat = doc.find('.//CORNER_UL_LAT_PRODUCT').text
+        self.ul_lon = doc.find('.//CORNER_UL_LON_PRODUCT').text
+
+        self.ur_lat = doc.find('.//CORNER_UR_LAT_PRODUCT').text
+        self.ur_lon = doc.find('.//CORNER_UR_LON_PRODUCT').text
+
+        self.ll_lat = doc.find('.//CORNER_LL_LAT_PRODUCT').text
+        self.ll_lon = doc.find('.//CORNER_LL_LON_PRODUCT').text
+
+        self.lr_lat = doc.find('.//CORNER_LR_LAT_PRODUCT').text
+        self.lr_lon = doc.find('.//CORNER_LR_LON_PRODUCT').text
 
         self.coord = {
           'ul':
-             {'lon': self.west,
-              'lat': self.north},
+             {'lon': self.ul_lon,
+              'lat': self.ul_lat},
           'ur':
-             {'lon': self.east,
-              'lat': self.north},
+             {'lon': self.ur_lon,
+              'lat': self.ur_lat},
           'lr':
-             {'lon': self.east,
-              'lat': self.south},
+             {'lon': self.lr_lon,
+              'lat': self.lr_lat},
           'll':
-             {'lon': self.west,
-              'lat': self.south}}
+             {'lon': self.ll_lon,
+              'lat': self.ll_lat}}
 
 
     def get_geography_coords(self):
@@ -92,14 +103,17 @@ class MetaBlob:
 
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
         doc = ElementTree.fromstring(xmlstring)
-        projection_parameters = doc.find('.//projection_information')
-        for corner_point in projection_parameters.findall('corner_point'):
-            if corner_point.attrib['location'] in 'UL':
-                self.westx = corner_point.attrib['x']
-                self.northy = corner_point.attrib['y']
-            if corner_point.attrib['location'] in 'LR':
-                self.eastx = corner_point.attrib['x']
-                self.southy = corner_point.attrib['y']
+
+        ul_lat = doc.find('.//CORNER_UL_LAT_PRODUCT').text
+        ul_lon = doc.find('.//CORNER_UL_LON_PRODUCT').text
+
+        lr_lat = doc.find('.//CORNER_LR_LAT_PRODUCT').text
+        lr_lon = doc.find('.//CORNER_LR_LON_PRODUCT').text
+
+        self.westx = ul_lon
+        self.northy = ul_lat
+        self.eastx = lr_lon
+        self.southy = lr_lat
 
 
     def get_projection_coords(self):
@@ -110,20 +124,31 @@ class MetaBlob:
         print(self.southy)
 
 
+
     def set_band_file_names(self):
         """ parse the xml metadata and return the band names in a dict """
         self.band_dict = {}
         xmlstring = self.xmlstring
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
         doc = ElementTree.fromstring(xmlstring)
+
+        bands = [
+                "FILE_NAME_BAND_1",
+                "FILE_NAME_BAND_2",
+                "FILE_NAME_BAND_3",
+                "FILE_NAME_BAND_4",
+                "FILE_NAME_BAND_5",
+                "FILE_NAME_BAND_6",
+                "FILE_NAME_BAND_7",
+                "FILE_NAME_QUALITY_L2_AEROSOL",
+                "FILE_NAME_QUALITY_L1_PIXEL",
+                ]
+
         # print(type(xmldoc))
-        bands = doc.find('.//bands')
-        for bandxml in bands:
-            band_name = (bandxml.get('name'))
-            #print(band_name)
-            file = bandxml.find('.//file_name')
-            band_file_name = self.directory + '/' +file.text
-            # print(band_file_name)
+        for band_name in bands:
+            print(band_name)
+            band_file_name = doc.find(".//" + band_name).text
+            print(band_file_name)
             self.band_dict[band_name] = band_file_name
         pp = pprint.PrettyPrinter(depth=6)
         pp.pprint (self.band_dict)
