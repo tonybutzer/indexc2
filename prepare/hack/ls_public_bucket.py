@@ -490,7 +490,8 @@ def iterate_datasets(bucket_name, config, prefix, suffix, start_date, end_date, 
     bucket = s3.Bucket(bucket_name)
     logging.info("Bucket : %s prefix: %s ", bucket_name, str(prefix))
     # safety = 'safe' if not unsafe else 'unsafe'
-    worker_count = cpu_count() * 2
+    # worker_count = cpu_count() * 2
+    worker_count = 1
 
     processess = []
     for i in range(worker_count):
