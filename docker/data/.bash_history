@@ -38,3 +38,13 @@ m
 vi Makefile 
 m
 grep META *.py
+ls
+ls
+cd /opt
+ls
+cd indexc2/
+ls
+cd lib/
+ls
+cd tests/
+ls

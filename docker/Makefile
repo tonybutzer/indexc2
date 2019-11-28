@@ -13,6 +13,9 @@ up:
 build:
 	docker-compose build
 
+exec:
+	docker-compose exec jupyter bash
+
 init-db:
 	docker-compose exec jupyter datacube system init
 
