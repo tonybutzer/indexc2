@@ -26,7 +26,7 @@ es_conn = connect_elasticsearch()
 
 
 # delete any old indexes - similar to clearing the postgres db
-if ELASTSIC:
+if ELASTIC:
     es_conn.indices.delete(index='cube', ignore=[400, 404])
 
 # create new elastic search index
