@@ -10,7 +10,7 @@ setup(name='c2indexLib',
       ],
       install_requires=[
           #'folium',
-          #'elasticsearch',
+          'elasticsearch',
           # 'boto3',
           #'pyproj',
       ],
