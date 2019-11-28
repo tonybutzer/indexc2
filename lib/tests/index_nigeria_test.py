@@ -9,7 +9,6 @@ from c2indexLib.elastic_index import connect_elasticsearch
 from c2indexLib.elastic_index import l_create_index
 from c2indexLib.elastic_index import store_record
 
-from c2indexLib.datacube_index import make_rules
 from c2indexLib.datacube_index import add_dataset
 
 bucket = "ga-africa-provisional"
