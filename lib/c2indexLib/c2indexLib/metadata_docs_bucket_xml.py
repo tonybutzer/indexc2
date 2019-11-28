@@ -150,4 +150,4 @@ def get_metadata_docs_bucket_xml(bucket_name, prefix):
             metadata_doc = make_doc_from_meta_blob(raw_string, meta_type, my_dir, meta_file_name)
             print(metadata_doc)
             print(cnt)
-            #yield obj_key, metadata_doc
+            yield obj_key, metadata_doc
