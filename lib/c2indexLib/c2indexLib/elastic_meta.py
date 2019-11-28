@@ -12,18 +12,8 @@ use elatic instead of postgresql -
 #import logging
 import sys
 import os
-#import json
-#import pprint
 
 from collections import OrderedDict
-
-#from dcindexLib.xml_meta_lib import get_metadata_docs_bucket   # uses xml based metadata
-from dcindexLib.parse_json import get_metadata_docs_json
-
-from dcindexLib.projection_stuff import get_projection_info
-# from dcindexLib.elastic_index import connect_elasticsearch
-# from dcindexLib.elastic_index import l_create_index
-# from dcindexLib.elastic_index import store_record
 
 
 def create_footprint(coord):

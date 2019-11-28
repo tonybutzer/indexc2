@@ -48,3 +48,10 @@ cd lib/
 ls
 cd tests/
 ls
+cd /opt/
+ls
+cd indexc2/
+ls
+cd lib/tests/
+ls
+make 
