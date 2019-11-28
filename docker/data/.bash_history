@@ -70,3 +70,13 @@ ls
 datcube system init
 datacube system init
 python3
+ls
+cd /opt/
+ls
+cd indexc2/
+ls
+cd lib/
+ls
+cd tests/
+ls
+make all
