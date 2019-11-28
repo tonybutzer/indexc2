@@ -55,3 +55,18 @@ ls
 cd lib/tests/
 ls
 make 
+cd /opt/indexc2/
+ls
+cd lib/tests/
+ls
+make
+datacube vesion
+datacube version
+datacube --version
+python3
+ls
+cd
+ls
+datcube system init
+datacube system init
+python3

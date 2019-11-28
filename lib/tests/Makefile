@@ -5,3 +5,11 @@ run:
 
 git:
 	(cd /opt/indexc2; make)
+
+initdb:
+	datacube system init
+
+product:
+	echo add product definition via yaml here
+
+all:	initdb product runi

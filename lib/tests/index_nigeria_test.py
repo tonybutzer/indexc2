@@ -35,7 +35,7 @@ l_create_index(es_conn, index_name, record_type)
 # create datacube index postgres
 dc = datacube.Datacube(config=config)
 index = dc.index
-rules = make_rules(index)
+sources_policy = 'skip'
 
 for metadata_path, metadata_doc in get_metadata_docs_bucket_xml(bucket, prefix):
     uri = metadata_path
@@ -45,7 +45,7 @@ for metadata_path, metadata_doc in get_metadata_docs_bucket_xml(bucket, prefix):
     print("INDEXER META:", metadata_doc)
     elastic_ready_doc = elastic_flatten_doc(metadata_doc)
     logging.info("Indexing %s", metadata_path)
-    add_dataset(metadata_doc, uri, rules, index)
+    add_dataset(metadata_doc, uri, index, source_policy)
     print("creationdate", metadata_doc['creation_dt'])
     print(elastic_ready_doc)
     elastic_json_record = json.dumps(elastic_ready_doc)
