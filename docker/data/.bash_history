@@ -80,3 +80,18 @@ ls
 cd tests/
 ls
 make all
+ls -l
+cd /opt/indexc2/
+ls
+cd lib/tests/
+ls
+make 
+vi index_nigeria_test.py 
+ls
+cd
+ls
+ls -la .
+more .datacube.conf 
+ls
+cp .datacube.conf tony/
+ls

@@ -36,6 +36,7 @@ if ELASTIC:
     l_create_index(es_conn, index_name, record_type)
 
 # create datacube index postgres
+config='.datacube.conf'
 dc = datacube.Datacube(config=config)
 index = dc.index
 sources_policy = 'skip'
