@@ -1,4 +1,5 @@
 name: tony_nigeria
+metadata_type: eo
 metadata:
   product:
     href: https://github.com/tonybutzer/indexc2
@@ -114,5 +115,4 @@ measurements:
         1: low
         2: medium
         3: high
-metadata_type: eo3_landsat_ard
 

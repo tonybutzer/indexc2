@@ -14,10 +14,10 @@
 ~MSle0~/con
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1575046457,,"q"
 :q!
 |2,0,1575038770,,"q!"
-:q
-|2,0,1575038767,,"q"
 :w!
 |2,0,1575038758,,"w!"
 :w
@@ -57,38 +57,52 @@
 |3,1,36,0,1,0,1575038755,"g"
 
 # File marks:
-'0  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,48,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'1  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,49,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+'0  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,48,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+'1  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,49,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 '2  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,50,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'3  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,51,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+'3  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,51,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 '4  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,52,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
-'5  7  18  ~/tony/indexc2/prepare/hack/Makefile
-|4,53,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
+|4,52,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+'5  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,53,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
 '6  7  18  ~/tony/indexc2/prepare/hack/Makefile
 |4,54,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
 '7  7  18  ~/tony/indexc2/prepare/hack/Makefile
 |4,55,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
 '8  7  18  ~/tony/indexc2/prepare/hack/Makefile
 |4,56,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
-'9  12  12  ~/tony/indexc2/prepare/hack/Makefile
-|4,57,12,12,1574852046,"~/tony/indexc2/prepare/hack/Makefile"
+'9  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,57,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
 
 # Jumplist (newest first):
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  11  72  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
 -'  11  72  ~/tony/indexc2/prepare/hack/Makefile
@@ -97,6 +111,22 @@
 |4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
 -'  11  72  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
+-'  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
 -'  11  72  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
 -'  11  72  ~/tony/indexc2/prepare/hack/Makefile
@@ -121,6 +151,30 @@
 |4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
 -'  7  18  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852525,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
+-'  7  18  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
 -'  7  18  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
 -'  7  18  ~/tony/indexc2/prepare/hack/Makefile
@@ -153,6 +207,30 @@
 |4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
 -'  13  2  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
+-'  13  2  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,13,2,1574852426,"~/tony/indexc2/prepare/hack/Makefile"
 -'  12  12  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
 -'  12  12  ~/tony/indexc2/prepare/hack/Makefile
@@ -177,110 +255,36 @@
 |4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
 -'  12  12  ~/tony/indexc2/prepare/hack/Makefile
 |4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
--'  7  12  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,7,12,1574852046,"~/tony/indexc2/prepare/hack/Makefile"
--'  7  12  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,7,12,1574852046,"~/tony/indexc2/prepare/hack/Makefile"
--'  7  12  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,7,12,1574852046,"~/tony/indexc2/prepare/hack/Makefile"
--'  7  12  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,7,12,1574852046,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  1  0  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,1,0,1574852033,"~/tony/indexc2/prepare/hack/Makefile"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
--'  333  38  ~/tony/indexc2/prepare/hack/ls_public_bucket.py
-|4,39,333,38,1574851982,"~/tony/indexc2/prepare/hack/ls_public_bucket.py"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
+-'  12  12  ~/tony/indexc2/prepare/hack/Makefile
+|4,39,12,12,1574852411,"~/tony/indexc2/prepare/hack/Makefile"
 
 # History of marks within files (newest to oldest):
+
+> /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+	*	1575046455	0
+	"	472	12
 
 > /opt/indexc2/lib/tests/index_nigeria_test.py
 	*	1575038767	0

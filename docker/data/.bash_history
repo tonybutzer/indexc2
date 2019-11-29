@@ -107,3 +107,17 @@ cd /opt/indexc2/lib/tests/
 ls
 make all
 ls -l
+cd /opt/
+ls
+cd indexc2/
+ls
+cd lib/tests/
+ls
+more Makefile 
+make initdb
+ls
+datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
+datacube product add /opt/indexc2/product_definition/usgs-level2-collection2-sample.odc-product.yaml 
+tail /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+view /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+su
