@@ -103,3 +103,7 @@ ls -l
 cd /opt/indexc2/lib/tests/
 ls
 make all
+cd /opt/indexc2/lib/tests/
+ls
+make all
+ls -l

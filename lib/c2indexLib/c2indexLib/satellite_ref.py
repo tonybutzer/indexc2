@@ -2,26 +2,26 @@
 However puttng it in a new file is a start
 """
 
-bands_ls8_c2l2 = [('1', 'sr_band1'),
+bands_ls8_c2l2 = [('1', 'coastal_aerosol'),
              ('2', 'blue'),
              ('3', 'green'),
              ('4', 'red'),
              ('5', 'nir'),
-             ('6', 'swir1'),
-             ('7', 'swir2'),
-             ('8', 'therm'),
-             ('9', 'pixel_qa')]
+             ('6', 'swir_1'),
+             ('7', 'swir_2'),
+             ('8', 'thermal_radiance'),
+             ('9', 'quality_l2_aerosol')]
 
 band_file_map = {
-                  'sr_band1' : 'FILE_NAME_BAND_1',
+                  'coastal_aerosol' : 'FILE_NAME_BAND_1',
                   'blue' : 'FILE_NAME_BAND_2',
                   'green' : 'FILE_NAME_BAND_3',
                   'red' : 'FILE_NAME_BAND_4',
                   'nir' : 'FILE_NAME_BAND_5',
-                  'swir1' : 'FILE_NAME_BAND_6',
-                  'swir2' : 'FILE_NAME_BAND_7',
-                  'therm' : 'FILE_NAME_THERMAL_RADIANCE',
-                  'pixel_qa' : 'FILE_NAME_QUALITY_L2_AEROSOL',
+                  'swir_1' : 'FILE_NAME_BAND_6',
+                  'swir_2' : 'FILE_NAME_BAND_7',
+                  'thermal_radiance' : 'FILE_NAME_THERMAL_RADIANCE',
+                  'quality_l2_aerosol' : 'FILE_NAME_QUALITY_L2_AEROSOL',
                 }
 
 def satellite_ref(sat):
