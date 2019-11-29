@@ -121,3 +121,9 @@ datacube product add /opt/indexc2/product_definition/usgs-level2-collection2-sam
 tail /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 view /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 su
+cd /opt/indexc2/lib/tests/
+ls
+make initdb
+datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
+make runi
+history

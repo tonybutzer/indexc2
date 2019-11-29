@@ -10,6 +10,6 @@ initdb:
 	datacube system init
 
 product:
-	echo add product definition via yaml here
+	datacube product add /opt/indexc2/product_definition/usgs-level2-collection2-sample.odc-product.yaml
 
 all:	initdb product runi

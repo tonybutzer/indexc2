@@ -64,7 +64,7 @@ def elastic_flatten_doc(mdoc):
                     'green': mdoc['image']['bands']['green']['path'],
                     'blue': mdoc['image']['bands']['blue']['path'],
                     'nir': mdoc['image']['bands']['nir']['path'],
-                    'pixel_qa': mdoc['image']['bands']['pixel_qa']['path'],
+                    'pixel_qa': mdoc['image']['bands']['quality_l2_aerosol']['path'],
                     'ul': {
                             'lat': mdoc['extent']['coord']['ul']['lat'],
                             'lon': mdoc['extent']['coord']['ul']['lon'],
