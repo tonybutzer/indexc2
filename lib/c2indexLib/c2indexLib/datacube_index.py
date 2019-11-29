@@ -1,4 +1,5 @@
 import datacube
+import logging
 
 from datacube.index.hl import Doc2Dataset
 

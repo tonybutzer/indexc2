@@ -98,3 +98,8 @@ ls
 cd /opt/indexc2/lib/tests/
 ls
 make all
+ls -l
+ls -l
+cd /opt/indexc2/lib/tests/
+ls
+make all
