@@ -39,7 +39,7 @@ if ELASTIC:
 config='.datacube.conf'
 dc = datacube.Datacube(config=config)
 index = dc.index
-sources_policy = 'skip'
+source_policy = 'skip'
 
 for metadata_path, metadata_doc in get_metadata_docs_bucket_xml(bucket, prefix):
     uri = metadata_path

@@ -95,3 +95,6 @@ more .datacube.conf
 ls
 cp .datacube.conf tony/
 ls
+cd /opt/indexc2/lib/tests/
+ls
+make all
