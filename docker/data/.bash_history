@@ -179,3 +179,16 @@ cd ..
 ls
 cd ..
 ls
+cd /opt/indexc2/
+ls
+cd lib/
+ls
+cd tests/
+ls
+make runi
+ls
+env
+psql -h postgres -U opendatacube
+ls
+make all
+exit
