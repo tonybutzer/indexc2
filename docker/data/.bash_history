@@ -154,3 +154,5 @@ make all
 more Makefile 
 make product
 more /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
+cd /opt/indexc2/lib/tests/
+make all
