@@ -138,3 +138,19 @@ datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.ya
 make runi
 psql
 ls
+cd /opt
+ls
+cd indexc2/lib/tests/
+ls
+more Makefile 
+make initdb
+datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
+make runi
+cd /opt/indexc2/
+ls
+cd lib/tests/
+ls
+make all
+more Makefile 
+make product
+more /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
