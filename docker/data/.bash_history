@@ -127,3 +127,14 @@ make initdb
 datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
 make runi
 history
+cd /opt/
+ls
+cd indexc2/
+ls
+cd lib/tests/
+ls
+make all
+datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
+make runi
+psql
+ls

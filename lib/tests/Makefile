@@ -10,6 +10,6 @@ initdb:
 	datacube system init
 
 product:
-	datacube product add /opt/indexc2/product_definition/usgs-level2-collection2-sample.odc-product.yaml
+	datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml
 
 all:	initdb product runi
