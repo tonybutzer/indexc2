@@ -2,8 +2,6 @@ name: c2l2tony
 metadata_type: eo
 metadata:
   product:
-    href: https://github.com/tonybutzer/indexc2
-    name: c2l2tony
 description: Sample USGS Level 2 Collection 2 Landsat for index testing
 measurements:
 - name: coastal_aerosol

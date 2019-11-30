@@ -156,3 +156,26 @@ make product
 more /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
 cd /opt/indexc2/lib/tests/
 make all
+datacube product list
+cd /opt/indexc2/lib/tests/
+ls
+datacube product list
+make all
+psql -h postgres -U opendatacube -W opendatacubepassword opendatacube
+psql --help
+psql -h $DB_HOSTNAME -U $DB_USERNAME -W $DB_PASSWORD $DB_DATABASE
+psql -h $DB_HOSTNAME -U $DB_USERNAME -W $DB_PASSWORD
+psql -h $DB_HOSTNAME -U $DB_USERNAME -W $DB_PASSWORD
+psql -h $DB_HOSTNAME -U $DB_USERNAME
+datacube products list
+datacube product list
+psql -h $DB_HOSTNAME -U $DB_USERNAME
+cd /opt/indexc2/lib/tests/
+ls
+ls -l
+make runi
+ls -l
+cd ..
+ls
+cd ..
+ls

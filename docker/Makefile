@@ -39,3 +39,7 @@ test-elastic:
 
 test-index-lib:
 	docker-compose exec jupyter python3 /opt/indexc2/lib/tests/test_xml.py
+
+
+git:
+	(cd /opt/indexc2 ; make)
