@@ -217,3 +217,14 @@ vi Makefile
 make all
 cd /opt/indexc2/prepare/
 make runi
+cd /opt/indexc2/
+ls
+cd docker/
+las
+la
+ls
+
+ls
+make runi
+make runi
+make runi
