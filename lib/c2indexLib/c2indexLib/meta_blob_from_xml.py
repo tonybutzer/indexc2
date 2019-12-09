@@ -28,7 +28,7 @@ class MetaBlob:
         self.set_band_file_names()
 
     # Using below for US C1L2 Albers
-    def set_global_metadata_c2(self):
+    def set_global_metadata(self):
         xmlstring = self.xmlstring
 
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
