@@ -27,7 +27,22 @@ class MetaBlob:
         self.set_projection_coords()
         self.set_band_file_names()
 
-    def set_global_metadata(self):
+    # Using below for US C1L2 Albers
+    def set_global_metadata_c2(self):
+        xmlstring = self.xmlstring
+
+        xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
+        doc = ElementTree.fromstring(xmlstring)
+        
+        self.data_provider = doc.find('.//data_provider').text
+        self.satellite = doc.find('.//satellite').text
+        self.instrument = doc.find('.//instrument').text
+        self.acquisition_date = doc.find('.//acquisition_date').text
+        self.scene_center_time = doc.find('.//scene_center_time').text
+        self.product_id =  doc.find('.//product_id').text
+        self.lpgs_metadata_file = doc.find('.//lpgs_metadata_file').text
+
+    def set_global_metadata_c2_africa(self):
         xmlstring = self.xmlstring
 
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
@@ -59,6 +74,27 @@ class MetaBlob:
 
 
     def set_geography_coords(self):
+        xmlstring = self.xmlstring
+        west = doc.find('.//bounding_coordinates/west').text
+        east = doc.find('.//bounding_coordinates/east').text
+        north = doc.find('.//bounding_coordinates/north').text
+        south = doc.find('.//bounding_coordinates/south').text
+
+        self.coord = {
+          'ul':
+             {'lon': west,
+              'lat': north},
+          'ur':
+             {'lon': east,
+              'lat': north},
+          'lr':
+             {'lon': east,
+              'lat': south},
+          'll':
+             {'lon': west,
+              'lat': south}}
+
+    def set_geography_coords_c2_africa(self):
         xmlstring = self.xmlstring
 
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
@@ -103,6 +139,20 @@ class MetaBlob:
 
         xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
         doc = ElementTree.fromstring(xmlstring)
+        projection_parameters = doc.find('.//projection_information')
+        for corner_point in projection_parameters.findall('corner_point'):
+            if corner_point.attrib['location'] in 'UL':
+                self.westx = corner_point.attrib['x']
+                self.northy = corner_point.attrib['y']
+            if corner_point.attrib['location'] in 'LR':
+                self.eastx = corner_point.attrib['x']
+                self.southy = corner_point.attrib['y']
+
+    def set_projection_coords_c2_africa(self):
+        xmlstring = self.xmlstring
+
+        xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
+        doc = ElementTree.fromstring(xmlstring)
 
         ul_lat = doc.find('.//CORNER_UL_LAT_PRODUCT').text
         ul_lon = doc.find('.//CORNER_UL_LON_PRODUCT').text
@@ -125,7 +175,7 @@ class MetaBlob:
 
 
 
-    def set_band_file_names(self):
+    def set_band_file_names_c2_africa(self):
         """ parse the xml metadata and return the band names in a dict """
         self.band_dict = {}
         xmlstring = self.xmlstring
@@ -154,3 +204,21 @@ class MetaBlob:
         pp = pprint.PrettyPrinter(depth=6)
         pp.pprint (self.band_dict)
 
+
+    def set_band_file_names(self):
+        """ parse the xml metadata and return the band names in a dict """
+        self.band_dict = {}
+        xmlstring = self.xmlstring
+        xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
+        doc = ElementTree.fromstring(xmlstring)
+        # print(type(xmldoc))
+        bands = doc.find('.//bands')
+        for bandxml in bands:
+            band_name = (bandxml.get('name'))
+            #print(band_name)
+            file = bandxml.find('.//file_name')
+            band_file_name = self.directory + '/' +file.text
+            # print(band_file_name)
+            self.band_dict[band_name] = band_file_name
+        pp = pprint.PrettyPrinter(depth=6)
+        pp.pprint (self.band_dict)

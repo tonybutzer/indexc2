@@ -215,3 +215,5 @@ cd prepare/
 ls
 vi Makefile 
 make all
+cd /opt/indexc2/prepare/
+make runi
