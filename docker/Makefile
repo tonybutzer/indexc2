@@ -43,3 +43,22 @@ test-index-lib:
 
 git:
 	(cd /opt/indexc2 ; make)
+
+install-docker:
+	sudo apt-get update -y
+	sudo apt-get install -y make
+	sudo apt-get install -y awscli
+	sudo apt install -y docker.io
+	sudo docker run hello-world
+	sudo usermod -aG docker ${USER}
+	sudo chmod 666 /var/run/docker.sock
+	echo logout PLEASE!
+
+
+install-compose:
+	sudo apt install -y docker-compose
+
+
+group:
+	sudo usermod -aG docker ${USER}
+
