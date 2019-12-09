@@ -192,3 +192,9 @@ psql -h postgres -U opendatacube
 ls
 make all
 exit
+cd /opt/indexc2/
+ls
+cd prepare/
+ls
+make
+cp ../lib/tests/.datacube.conf .
