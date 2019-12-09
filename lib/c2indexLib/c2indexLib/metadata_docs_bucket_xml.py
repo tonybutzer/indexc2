@@ -52,16 +52,16 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
     #####
 
     print(meta_blob.band_dict)
-    print("FILE_NAME_BAND_4: ", meta_blob.band_dict['FILE_NAME_BAND_4'])
+    # print("FILE_NAME_BAND_4: ", meta_blob.band_dict['FILE_NAME_BAND_4'])
 
-    geo_guinea_pig = meta_blob.band_dict['FILE_NAME_BAND_4']
+    #geo_guinea_pig = meta_blob.band_dict['FILE_NAME_BAND_4']
 
     # spatial_ref = get_projection_info(geo_guinea_pig)
 
-    # TONY FIX ythie HARDCODE soon!
+    # TONY FIX this HARDCODE soon!
 
-    # spatial_ref = 'epsg:5072'
-    spatial_ref = 'epsg:32631'
+    spatial_ref = 'epsg:5072'
+    #spatial_ref = 'epsg:32631'
 
     #####
 
