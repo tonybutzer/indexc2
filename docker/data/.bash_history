@@ -198,3 +198,20 @@ cd prepare/
 ls
 make
 cp ../lib/tests/.datacube.conf .
+ls
+cd /opt/indexc2/prepare/
+ls
+make runi
+ls
+more Makefile 
+make initdb
+make product
+ls /opt/indexc2/product_definition/
+cd /opt/
+ls
+cd indexc2/
+ls
+cd prepare/
+ls
+vi Makefile 
+make all
