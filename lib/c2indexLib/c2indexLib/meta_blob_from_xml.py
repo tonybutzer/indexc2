@@ -75,6 +75,8 @@ class MetaBlob:
 
     def set_geography_coords(self):
         xmlstring = self.xmlstring
+        xmlstring = re.sub(r'\sxmlns="[^"]+"', '', xmlstring, count=1)
+        doc = ElementTree.fromstring(xmlstring)
         west = doc.find('.//bounding_coordinates/west').text
         east = doc.find('.//bounding_coordinates/east').text
         north = doc.find('.//bounding_coordinates/north').text
