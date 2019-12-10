@@ -228,3 +228,10 @@ ls
 make runi
 make runi
 make runi
+ls
+make all
+cd /opt/indexc2/prepare/
+ls
+make all
+make drop
+make all
