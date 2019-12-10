@@ -13,7 +13,7 @@ from c2indexLib.datacube_index import add_dataset
 
 bucket = "dev-usgs-landsat"
 
-prefix = "collection1/level2/albers/oli-tirs/2018/026/028/"
+prefix = "collection1/level2/albers/oli-tirs/2018/046/028/"
 
 cnt=0
 print ("meta loop")
