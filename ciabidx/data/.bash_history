@@ -293,3 +293,4 @@ pwd
 cd ..
 ls
 pwd
+pip list |grep sat

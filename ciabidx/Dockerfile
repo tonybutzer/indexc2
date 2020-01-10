@@ -2,9 +2,9 @@ FROM opendatacube/jupyter
 
 USER root
 
-ENV odcversion=1.3
+ENV odcversion=1.5
 
-RUN pip3 install ryd && pip install awscli && pip install eodatasets3 && pip install sat-search
+RUN pip3 install ryd && pip install awscli && pip install eodatasets3 && pip install sat-search && pip install geopandas && pip install scikit-image
 
 RUN apt-get update && apt-get install -y vim && apt-get install -y postgresql-client
 
