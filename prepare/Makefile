@@ -1,16 +1,24 @@
-runi:
-	python3 index_hayden.py
+echo:
+	echo hi 
 
-git:
-	(cd /opt/indexc2; make)
+all:	initdb product runi
 
 initdb:
 	datacube system init
 
 product:
-	datacube product add ~/opt/indexc2/product_definition/l2-odc-product.yaml
+	datacube product add /opt/indexc2/product_definition/l2-odc-product.yaml
+
+runi:
+	python3 index_hayden.py
 
 drop:
 	./dropDatabaseTables.sh
 
-all:	initdb product runi
+
+
+
+
+git:
+	(cd /opt/indexc2; make)
+
