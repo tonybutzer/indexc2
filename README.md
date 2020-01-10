@@ -10,7 +10,20 @@ cd ciabidx
 make up
 make init-db
 
-make bash
+make exec
+
+make all   # initdb;  make product and run hayden index
+
+```
+## Then jupyter
+```
+ssh tunnell 8888 ~/bin/01-tunnel...
+
+firefox localhost:8888
+
+cd 00-notebooks
+
+00-hayden-progress # restart and run all
 ```
 
 1. cube-in-a-box deployment
