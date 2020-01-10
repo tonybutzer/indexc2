@@ -5,6 +5,14 @@ collate index python code for populating an ODC postgresdb from L2 Landsat
 
 # HOWTO Run and Test Indexing
 
+```
+cd ciabidx
+make up
+make init-db
+
+make bash
+```
+
 1. cube-in-a-box deployment
     - postgresql
      - odc/jupyter # need to customize

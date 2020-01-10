@@ -14,16 +14,18 @@
 ~MSle0~/sensor_id
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1575923495,,"q"
 :q!
-|2,0,1575038770,,"q!"
+|2,0,1578689686,,"q!"
+:q
+|2,0,1578689666,,"q"
+:wq
+|2,0,1578689663,,"wq"
+:ew
+|2,0,1578689661,,"ew"
 :w!
 |2,0,1575038758,,"w!"
 :w
 |2,0,1574966622,,"w"
-:wq
-|2,0,1574966620,,"wq"
 
 # Search String History (newest to oldest):
 ?/sensor_id
@@ -55,34 +57,42 @@
 	from c2indexLib.datacube_index import make_rules
 |3,0,1,1,1,0,1574966606,"from c2indexLib.datacube_index import make_rules"
 ""-	CHAR	0
-	g
-|3,1,36,0,1,0,1575038755,"g"
+	~
+|3,1,36,0,1,0,1578689656,"~"
 
 # File marks:
-'0  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
-|4,48,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
-'1  1  0  /opt/indexc2/prepare/Makefile
-|4,49,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
-'2  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,50,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
-'3  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,51,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'4  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,52,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'5  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,53,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'6  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,54,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
-'7  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,55,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
-'8  7  18  ~/tony/indexc2/prepare/hack/Makefile
-|4,56,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
-'9  7  18  ~/tony/indexc2/prepare/hack/Makefile
-|4,57,7,18,1574852448,"~/tony/indexc2/prepare/hack/Makefile"
+'0  11  22  /opt/indexc2/prepare/Makefile
+|4,48,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
+'1  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,49,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+'2  1  0  /opt/indexc2/prepare/Makefile
+|4,50,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'3  1  0  /opt/indexc2/prepare/Makefile
+|4,51,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'4  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,52,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+'5  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,53,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+'6  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,54,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+'7  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,55,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+'8  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,56,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+'9  11  72  ~/tony/indexc2/prepare/hack/Makefile
+|4,57,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
 
 # Jumplist (newest first):
+-'  11  22  /opt/indexc2/prepare/Makefile
+|4,39,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
 -'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 |4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 |4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  1  0  /opt/indexc2/prepare/Makefile
@@ -97,6 +107,22 @@
 |4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 -'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 |4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 -'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 |4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 -'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
@@ -121,6 +147,22 @@
 |4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
@@ -137,6 +179,38 @@
 |4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
@@ -185,112 +259,42 @@
 |4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
--'  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,39,11,72,1574852547,"~/tony/indexc2/prepare/hack/Makefile"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  1  0  /opt/indexc2/lib/tests/index_nigeria_test.py
+|4,39,1,0,1574966597,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 
 # History of marks within files (newest to oldest):
+
+> /opt/indexc2/prepare/Makefile
+	*	1578689666	0
+	"	11	22
+	.	11	22
+	+	11	22
 
 > /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 	*	1575923492	0
 	"	481	12
-
-> /opt/indexc2/prepare/Makefile
-	*	1575905604	0
-	"	1	0
 
 > /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 	*	1575046455	0

@@ -235,3 +235,16 @@ ls
 make all
 make drop
 make all
+ls
+cd /opt/
+ls
+cd indexc2/
+ls
+cd prepare/
+ls
+more Makefile 
+make product
+ls
+more Makefile 
+vi Makefile 
+        datacube product add /opt/indexc2/product_definition/l2-odc-product.yaml
