@@ -18,6 +18,14 @@ exec:
 verify-elastic:
 	docker-compose exec kibana curl elasticsearch:9200
 
+refresh-data:
+	mkdir data/opt
+	(cd data/opt; git clone http://github.com/tonybutzer/notebook)
+	(cd data/opt; git clone http://github.com/tonybutzer/indexc2)
+
+restart:
+	docker-compose restart jupyter
+
 
 # ADMIN STUFF
 # -------------------------------------------------------------------------------------

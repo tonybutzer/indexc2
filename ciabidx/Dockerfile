@@ -2,11 +2,16 @@ FROM opendatacube/jupyter
 
 USER root
 
-RUN pip3 install ryd && pip install awscli && pip install eodatasets3
+ENV odcversion=1.3
+
+RUN pip3 install ryd && pip install awscli && pip install eodatasets3 && pip install sat-search
 
 RUN apt-get update && apt-get install -y vim && apt-get install -y postgresql-client
 
-ENV tversion=1.2
+# Install DEA Goodies for progress status
+RUN pip3 install --no-cache --extra-index-url="https://packages.dea.ga.gov.au" odc_ui 
+
+ENV tversion=1.3
 RUN (cd /opt ; git clone http://github.com/tonybutzer/indexc2) \
 	&& (cd /opt/indexc2/lib; make build-root)
 

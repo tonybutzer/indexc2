@@ -248,3 +248,48 @@ ls
 more Makefile 
 vi Makefile 
         datacube product add /opt/indexc2/product_definition/l2-odc-product.yaml
+cd /opt/
+ls
+cd indexc2/
+ls
+cd prepare/
+ls
+more Makefile 
+ld
+cd /opt/
+ls
+cd indexc2/
+ls
+cd prepare/
+ls
+make 
+make all
+ll
+datacube help
+datacube --help
+datacube product help
+datacube product --help
+datacube product list
+datacube product list |grep -v WARN
+datacube --help
+datacube --version
+datacube datasets --help
+datacube dataset --help
+datacube dataset info
+datacube dataset search --help
+datacube dataset search 
+datacube dataset search |grep xml
+datacube dataset search |grep xml |wc
+cd ..
+ls
+cd ciabidx/
+ls
+ls data/
+make exec
+ls
+cd 
+ls
+pwd
+cd ..
+ls
+pwd
