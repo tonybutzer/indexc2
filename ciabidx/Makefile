@@ -1,3 +1,9 @@
+instructions:
+	echo make up
+	echo dont forget make refresh-data
+	echo make exec
+	echo cd /opt/indexc2/prepare
+	echo more Makefile
 
 up:
 	docker-compose up -d
@@ -6,12 +12,9 @@ down:
 	docker-compose down
 
 build:
+	echo update buildversion first Dockerfile
 	docker-compose build
 
-instructions:
-	echo make exec
-	echo cd /opt/indexc2/prepare
-	echo more Makefile
 exec:
 	docker-compose exec jupyter bash
 
