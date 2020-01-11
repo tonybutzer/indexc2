@@ -294,3 +294,9 @@ cd ..
 ls
 pwd
 pip list |grep sat
+pip list |grep sc
+pip list |grep pil
+pip list 
+pip list |grepPil
+pip list |grep Pil
+pip list |grep Pil
