@@ -42,7 +42,7 @@ def satellite_ref(sat):
     """
     if sat == 'LANDSAT_8':
         sat_img = bands_ls8_c2l2
-        prod_type = 'c2l2tony'
+        prod_type = 'c1l2scenealbers'
     else:
         raise ValueError('Satellite data Not Supported')
     return sat_img, prod_type
