@@ -18,7 +18,8 @@ prefix = "collection1/level2/albers/oli-tirs/2018/046/028/"
 cnt=0
 print ("meta loop")
 
-ELASTIC=False
+# ELASTIC=False
+ELASTIC=True
 
 cnt=0;
 

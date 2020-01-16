@@ -354,3 +354,10 @@ ls
 cd product_definition/
 vi c1-l2-albers-scene-odc-product.yaml 
 ls
+cd /opt/
+ls
+cd indexc2/
+ls
+cd prepare/
+ls
+make all
