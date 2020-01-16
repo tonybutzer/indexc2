@@ -43,6 +43,9 @@ def l_create_index(es_object, index_name, record_type):
                     "ul" : {
                             "type": "geo_point"
                     },
+                    "lr" : {
+                            "type": "geo_point"
+                    },
                     "processing_level": {
                         "type": "text"
                     },

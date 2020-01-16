@@ -366,3 +366,15 @@ ls
 cd prepare/
 make all
 make all
+ls
+cd /opt/indexc2/prepare/
+make all
+ls
+cd ..
+ls
+cd lib/c2indexLib/c2indexLib/
+ls
+grep -i map *.py
+ls
+vi elastic_meta.py 
+vi elastic_index.py 
