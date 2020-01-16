@@ -336,3 +336,21 @@ curl elastic:9200
 host elastic
 host elasticsearch
 curl elasticsearch:9200
+ls
+cd /opt/indexc2/
+ls
+cd ciabidx/
+ls
+cd ../prepare/
+make all
+cd ..
+ls
+ls
+cd lib/c2indexLib/c2indexLib/
+ls
+grep c2l2 *.py
+cd /opt/indexc2/
+ls
+cd product_definition/
+vi c1-l2-albers-scene-odc-product.yaml 
+ls

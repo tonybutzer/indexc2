@@ -14,16 +14,16 @@
 ~MSle0~/sensor_id
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1579191263,,"q"
 :q!
-|2,0,1579182216,,"q!"
+|2,0,1579193083,,"q!"
+:q
+|2,0,1579193080,,"q"
+:w!
+|2,0,1579193078,,"w!"
 :wq
-|2,0,1579182213,,"wq"
+|2,0,1579193073,,"wq"
 :ew
 |2,0,1578689661,,"ew"
-:w!
-|2,0,1575038758,,"w!"
 :w
 |2,0,1574966622,,"w"
 
@@ -57,44 +57,64 @@
 	from c2indexLib.datacube_index import make_rules
 |3,0,1,1,1,0,1574966606,"from c2indexLib.datacube_index import make_rules"
 ""-	CHAR	0
-	~
-|3,1,36,0,1,0,1578689656,"~"
+	c2l2tony
+|3,1,36,0,1,0,1579193049,"c2l2tony"
 
 # File marks:
-'0  13  1  /opt/indexc2/prepare/Makefile
-|4,48,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
-'1  6  0  /opt/indexc2/README.md
-|4,49,6,0,1579182216,"/opt/indexc2/README.md"
-'2  11  22  /opt/indexc2/prepare/Makefile
-|4,50,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
+'0  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
+|4,48,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
+'1  13  1  /opt/indexc2/prepare/Makefile
+|4,49,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
+'2  6  0  /opt/indexc2/README.md
+|4,50,6,0,1579182216,"/opt/indexc2/README.md"
 '3  11  22  /opt/indexc2/prepare/Makefile
 |4,51,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
-'4  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
-|4,52,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
-'5  1  0  /opt/indexc2/prepare/Makefile
-|4,53,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'4  11  22  /opt/indexc2/prepare/Makefile
+|4,52,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
+'5  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,53,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 '6  1  0  /opt/indexc2/prepare/Makefile
 |4,54,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
 '7  1  0  /opt/indexc2/prepare/Makefile
 |4,55,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
 '8  1  0  /opt/indexc2/prepare/Makefile
 |4,56,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
-'9  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,57,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+'9  1  0  /opt/indexc2/prepare/Makefile
+|4,57,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
 
 # Jumplist (newest first):
+-'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
+|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
+-'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
+|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
 -'  13  1  /opt/indexc2/prepare/Makefile
 |4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
+-'  13  1  /opt/indexc2/prepare/Makefile
+|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
+-'  11  0  /opt/indexc2/prepare/Makefile
+|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
 -'  11  0  /opt/indexc2/prepare/Makefile
 |4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
 -'  6  0  /opt/indexc2/README.md
 |4,39,6,0,1579182216,"/opt/indexc2/README.md"
 -'  6  0  /opt/indexc2/README.md
 |4,39,6,0,1579182216,"/opt/indexc2/README.md"
+-'  6  0  /opt/indexc2/README.md
+|4,39,6,0,1579182216,"/opt/indexc2/README.md"
+-'  6  0  /opt/indexc2/README.md
+|4,39,6,0,1579182216,"/opt/indexc2/README.md"
 -'  1  0  /opt/indexc2/README.md
 |4,39,1,0,1579181978,"/opt/indexc2/README.md"
 -'  1  0  /opt/indexc2/README.md
 |4,39,1,0,1579181978,"/opt/indexc2/README.md"
+-'  1  0  /opt/indexc2/README.md
+|4,39,1,0,1579181978,"/opt/indexc2/README.md"
+-'  1  0  /opt/indexc2/README.md
+|4,39,1,0,1579181978,"/opt/indexc2/README.md"
+-'  11  22  /opt/indexc2/prepare/Makefile
+|4,39,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
+-'  11  22  /opt/indexc2/prepare/Makefile
+|4,39,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
 -'  11  22  /opt/indexc2/prepare/Makefile
 |4,39,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
 -'  11  22  /opt/indexc2/prepare/Makefile
@@ -105,6 +125,28 @@
 |4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
 -'  1  0  /opt/indexc2/prepare/Makefile
 |4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 |4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
@@ -137,6 +179,30 @@
 |4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 |4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
 -'  1  0  /opt/indexc2/prepare/Makefile
 |4,39,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
 -'  1  0  /opt/indexc2/prepare/Makefile
@@ -209,82 +275,23 @@
 |4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 -'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 |4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 
 # History of marks within files (newest to oldest):
+
+> /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
+	*	1579193081	0
+	"	8	32
+	^	8	33
+	.	8	32
+	+	8	32
 
 > /opt/indexc2/prepare/Makefile
 	*	1579191257	0
