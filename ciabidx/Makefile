@@ -30,6 +30,11 @@ restart:
 	docker-compose restart jupyter
 
 
+increment:
+	 (export PAGER=cat; pydoc increment-version)
+	python increment-version.py
+
+
 # ADMIN STUFF
 # -------------------------------------------------------------------------------------
 

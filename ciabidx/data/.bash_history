@@ -300,3 +300,14 @@ pip list
 pip list |grepPil
 pip list |grep Pil
 pip list |grep Pil
+ls
+cd /opt/indexc2/
+ls
+cd prepare/
+ls
+more Makefile 
+make all
+cd ..
+ls
+vi README.md 
+ls
