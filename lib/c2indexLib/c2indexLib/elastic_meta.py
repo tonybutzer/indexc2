@@ -69,6 +69,10 @@ def elastic_flatten_doc(mdoc):
                             'lat': mdoc['extent']['coord']['ul']['lat'],
                             'lon': mdoc['extent']['coord']['ul']['lon'],
                         },
+                    'lr': {
+                            'lat': mdoc['extent']['coord']['lr']['lat'],
+                            'lon': mdoc['extent']['coord']['lr']['lon'],
+                        },
                     'footprint': foot
                 }
     return elastic_doc

@@ -33,7 +33,7 @@ if ELASTIC:
 # create new elastic search index
 if ELASTIC:
     index_name='cube'
-    record_type = 'nigeria1'
+    record_type = 'odclite'
     l_create_index(es_conn, index_name, record_type)
 
 # create datacube index postgres

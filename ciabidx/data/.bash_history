@@ -361,3 +361,8 @@ ls
 cd prepare/
 ls
 make all
+cd /opt/indexc2/
+ls
+cd prepare/
+make all
+make all
