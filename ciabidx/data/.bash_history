@@ -324,3 +324,15 @@ cd /opt/indexc2/
 ls
 cd prepare/
 make all
+cd /opt/indexc2/
+ls
+cd prepare/
+ls
+make all
+host elastic
+nslookup elastic
+ping elastic
+curl elastic:9200
+host elastic
+host elasticsearch
+curl elasticsearch:9200
