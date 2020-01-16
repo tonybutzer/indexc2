@@ -14,12 +14,12 @@
 ~MSle0~/sensor_id
 
 # Command Line History (newest to oldest):
+:q
+|2,0,1579191263,,"q"
 :q!
 |2,0,1579182216,,"q!"
 :wq
 |2,0,1579182213,,"wq"
-:q
-|2,0,1578689666,,"q"
 :ew
 |2,0,1578689661,,"ew"
 :w!
@@ -61,30 +61,38 @@
 |3,1,36,0,1,0,1578689656,"~"
 
 # File marks:
-'0  6  0  /opt/indexc2/README.md
-|4,48,6,0,1579182216,"/opt/indexc2/README.md"
-'1  11  22  /opt/indexc2/prepare/Makefile
-|4,49,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
-'2  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
-|4,50,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
-'3  1  0  /opt/indexc2/prepare/Makefile
-|4,51,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
-'4  1  0  /opt/indexc2/prepare/Makefile
-|4,52,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
-'5  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-|4,53,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
-'6  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,54,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'7  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,55,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'8  30  0  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,56,30,0,1574966638,"/opt/indexc2/lib/tests/index_nigeria_test.py"
-'9  11  72  ~/tony/indexc2/prepare/hack/Makefile
-|4,57,11,72,1574852627,"~/tony/indexc2/prepare/hack/Makefile"
+'0  13  1  /opt/indexc2/prepare/Makefile
+|4,48,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
+'1  6  0  /opt/indexc2/README.md
+|4,49,6,0,1579182216,"/opt/indexc2/README.md"
+'2  11  22  /opt/indexc2/prepare/Makefile
+|4,50,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
+'3  11  22  /opt/indexc2/prepare/Makefile
+|4,51,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
+'4  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,52,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+'5  1  0  /opt/indexc2/prepare/Makefile
+|4,53,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'6  1  0  /opt/indexc2/prepare/Makefile
+|4,54,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'7  1  0  /opt/indexc2/prepare/Makefile
+|4,55,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'8  1  0  /opt/indexc2/prepare/Makefile
+|4,56,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'9  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,57,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 
 # Jumplist (newest first):
+-'  13  1  /opt/indexc2/prepare/Makefile
+|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
+-'  11  0  /opt/indexc2/prepare/Makefile
+|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
 -'  6  0  /opt/indexc2/README.md
 |4,39,6,0,1579182216,"/opt/indexc2/README.md"
+-'  6  0  /opt/indexc2/README.md
+|4,39,6,0,1579182216,"/opt/indexc2/README.md"
+-'  1  0  /opt/indexc2/README.md
+|4,39,1,0,1579181978,"/opt/indexc2/README.md"
 -'  1  0  /opt/indexc2/README.md
 |4,39,1,0,1579181978,"/opt/indexc2/README.md"
 -'  11  22  /opt/indexc2/prepare/Makefile
@@ -95,6 +103,8 @@
 |4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
 -'  1  0  /opt/indexc2/prepare/Makefile
 |4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
+-'  1  0  /opt/indexc2/prepare/Makefile
+|4,39,1,0,1578689647,"/opt/indexc2/prepare/Makefile"
 -'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 |4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
@@ -103,6 +113,22 @@
 |4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 |4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
+-'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
+|4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 |4,39,1,0,1575922590,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
 -'  1  0  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
@@ -151,6 +177,70 @@
 |4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 -'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 |4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  472  12  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,472,12,1575046457,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
+-'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
+|4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 -'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
 |4,39,1,0,1575046431,"/opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml"
 -'  1  0  /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
@@ -193,108 +283,18 @@
 |4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 -'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
 |4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  39  23  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,39,23,1575038770,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
--'  30  7  /opt/indexc2/lib/tests/index_nigeria_test.py
-|4,39,30,7,1575038743,"/opt/indexc2/lib/tests/index_nigeria_test.py"
 
 # History of marks within files (newest to oldest):
+
+> /opt/indexc2/prepare/Makefile
+	*	1579191257	0
+	"	13	1
+	.	11	22
+	+	11	22
 
 > /opt/indexc2/README.md
 	*	1579182213	0
 	"	6	0
-
-> /opt/indexc2/prepare/Makefile
-	*	1578689666	0
-	"	11	22
-	.	11	22
-	+	11	22
 
 > /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
 	*	1575923492	0

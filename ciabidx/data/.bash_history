@@ -311,3 +311,12 @@ cd ..
 ls
 vi README.md 
 ls
+ls
+cd /opt/indexc2/
+ls
+cd prepare/
+ls
+more Makefile 
+make all
+vi Makefile 
+ls

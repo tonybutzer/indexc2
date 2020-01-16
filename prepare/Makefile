@@ -7,10 +7,10 @@ initdb:
 	datacube system init
 
 product:
-	datacube product add /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
+	datacube product add /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yam
 
 runi:
-	python3 index_hayden.py
+	python3 index_hayden_c1l2_albers_scene.py
 
 drop:
 	./dropDatabaseTables.sh
