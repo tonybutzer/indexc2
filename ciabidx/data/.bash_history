@@ -378,3 +378,14 @@ grep -i map *.py
 ls
 vi elastic_meta.py 
 vi elastic_index.py 
+cd /opt/indexc2/
+ls
+cd prepare/
+ls
+make all
+ls
+vi index_hayden_c1l2_albers_scene.py 
+ls
+ls
+ls
+cp ../ciabidx/increment-version.py assess-my-data-lake.py
