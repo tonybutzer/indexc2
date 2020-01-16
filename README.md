@@ -3,7 +3,17 @@ collate index python code for populating an ODC postgresdb from L2 Landsat
 - C2-provisional data   ## eventually the real Collection 2
 - C1-L2-Albers-Scenes
 
+
+
 # HOWTO Run and Test Indexing
+
+## Collection 2 Nigeria
+
+```
+TBD
+```
+
+## C1-L2-Albers-Scenes USGS CHS ONLY
 
 ```
 cd ciabidx
@@ -17,7 +27,7 @@ make all   # initdb;  make product and run hayden index
 ```
 ## Then jupyter
 ```
-ssh tunnell 8888 ~/bin/01-tunnel...
+ssh tunnel 8888 ~/bin/01-tunnel...
 
 firefox localhost:8888
 
