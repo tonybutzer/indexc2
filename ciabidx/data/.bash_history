@@ -320,3 +320,7 @@ more Makefile
 make all
 vi Makefile 
 ls
+cd /opt/indexc2/
+ls
+cd prepare/
+make all
