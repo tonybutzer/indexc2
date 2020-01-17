@@ -16,14 +16,12 @@ import boto3
 def create_elastic_connection_and_index():
     es_conn = connect_elasticsearch()
     # delete any old indexes - similar to clearing the postgres db
-    if ELASTIC:
-        es_conn.indices.delete(index='datalake', ignore=[400, 404])
+    es_conn.indices.delete(index='datalake', ignore=[400, 404])
 
     # create new elastic search index
-    if ELASTIC:
-        index_name='datalake'
-        record_type = 'odclite'
-        l_create_index(es_conn, index_name, record_type)
+    index_name='datalake'
+    record_type = 'odclite'
+    l_create_index(es_conn, index_name, record_type)
 
     return es_conn
 
