@@ -436,3 +436,12 @@ ls
 make test-panda
 curl elasticsearch:9200
 make test-panda
+cd /opt/indexc2/data_lake/
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+make test-panda

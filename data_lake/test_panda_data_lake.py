@@ -45,6 +45,7 @@ def push_meta_to_elastic(bucketname, fpath):
     elastic_json_record = json.dumps(elastic_ready_doc)
     print("###"*30)
     pprint.pprint(elastic_json_record)
+    index_name='datalake'
     store_record(es_conn, index_name, record_type, elastic_json_record)
 
 
