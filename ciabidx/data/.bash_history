@@ -417,3 +417,5 @@ ls
 cd data_lake/
 ls
 bash
+cd /opt/indexc2/data_lake/
+make test-panda
