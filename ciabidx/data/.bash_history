@@ -405,3 +405,15 @@ cd indexc2/
 ls
 make
 make
+ls -lR
+cd indexc2/
+ls
+git status
+make
+make test-panda
+ls
+cd /opt/indexc2/
+ls
+cd data_lake/
+ls
+bash
