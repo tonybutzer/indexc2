@@ -8,6 +8,10 @@ assess:
 
 
 
+test-panda:
+	echo "should be run in cube in a box"
+	python3 test_panda_data_lake.py
+
 
 git:
 	(cd /opt/indexc2; make)
