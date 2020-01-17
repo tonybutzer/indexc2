@@ -389,3 +389,19 @@ ls
 ls
 ls
 cp ../ciabidx/increment-version.py assess-my-data-lake.py
+ls
+cd opt/notebook/
+ls
+git status
+make
+make
+make
+make
+git push
+ls
+cd opt/
+ls
+cd indexc2/
+ls
+make
+make
