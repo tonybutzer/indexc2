@@ -12,6 +12,7 @@ from c2indexLib.elastic_index import l_create_index
 
 import os
 import boto3
+import json
 
 def create_elastic_connection_and_index():
     es_conn = connect_elasticsearch()
