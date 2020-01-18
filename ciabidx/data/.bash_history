@@ -1,31 +1,3 @@
-moer Makefile 
-more Makefile
-alias m='make index-nigeria'
-m
-vi ls_public_bucket.py 
-m
-vi ls_public_bucket.py 
-m
-vi Makefile 
-m
-vi Makefile 
-make xml
-vi Makefile 
-m
-vi Makefile 
-m
-grep META *.py
-ls
-ls
-cd /opt
-ls
-cd indexc2/
-ls
-cd lib/
-ls
-cd tests/
-ls
-cd /opt/
 ls
 cd indexc2/
 ls
@@ -498,3 +470,31 @@ ls
 curl elasticsearch:9200 ; sleep 6
 curl elasticsearch:9200 ; sleep 6
 make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+ls
+cd ..
+ls
+cd ,,
+cd ..
+ls
+cd indexc2/
+ls
+cd lib/
+ls
+cd c2indexLib/
+ls
+cd c2indexLib/
+ls
+grep get_ *.py
+grep get_gl *.py
+vi meta_blob_from_xml.py
+grep get_gl *.py
+vi metadata_docs_bucket_xml.py

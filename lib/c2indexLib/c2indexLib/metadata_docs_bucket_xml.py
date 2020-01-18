@@ -39,7 +39,7 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
     else:
         xml_raw = xml_string
     meta_blob = MetaBlob(directory, xml_raw)
-    meta_blob.get_global_metadata()
+    # meta_blob.get_global_metadata()
 
     ####
     level = meta_blob.product_id.split('_')[1]
