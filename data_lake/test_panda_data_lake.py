@@ -71,10 +71,10 @@ aoi_pf = dl_select_path_row(pf, path, row)
 print(aoi_pf.head())
 print(aoi_pf.describe())
 
-# paths = dl_generate_list_of_xmls("dev-usgs-landsat", aoi_pf)
+paths = dl_generate_list_of_xmls("dev-usgs-landsat", aoi_pf)
 
 ## do the whole lake this could take a while
-paths = dl_generate_list_of_xmls("dev-usgs-landsat", pf)
+## paths = dl_generate_list_of_xmls("dev-usgs-landsat", pf)
 
 es_conn = create_elastic_connection_and_index()
 
@@ -90,5 +90,5 @@ for fpath in paths:
     my_meta_doc = push_meta_to_elastic("dev-usgs-landsat", fpath)
     meta_doc_list.append(my_meta_doc)
 
-pickle.dump( meta_doc_list, open( "meta_docs_elastic_json_pickle.p", "wb" ) )
+pickle.dump( meta_doc_list, open( "/notebooks/opt/meta_docs_elastic_json_pickle.p", "wb" ) )
 

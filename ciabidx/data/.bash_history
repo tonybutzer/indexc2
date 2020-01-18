@@ -1,17 +1,4 @@
 ls
-cd tests/
-ls
-make all
-ls -l
-cd /opt/indexc2/
-ls
-cd lib/tests/
-ls
-make 
-vi index_nigeria_test.py 
-ls
-cd
-ls
 ls -la .
 more .datacube.conf 
 ls
@@ -498,3 +485,16 @@ curl elasticsearch:9200 ; sleep 6
 curl elasticsearch:9200 ; sleep 6
 curl elasticsearch:9200 ; sleep 6
 make test-panda
+ls
+cd /opt/indexc2/data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+ls
+id
+ls -l
+pwd
+cd
+pwd
+cd /notebooks/
+ls
