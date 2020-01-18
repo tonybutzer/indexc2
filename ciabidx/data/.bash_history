@@ -1,18 +1,3 @@
-make 
-cd /opt/indexc2/
-ls
-cd lib/tests/
-ls
-make
-datacube vesion
-datacube version
-datacube --version
-python3
-ls
-cd
-ls
-datcube system init
-datacube system init
 python3
 ls
 cd /opt/
@@ -498,3 +483,18 @@ cd /opt/indexc2/data_lake/
 ls
 curl elasticsearch:9200 ; sleep 6
 make test-panda
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+ls
+cd /opt/indexc2/
+ks
+ls
+cd data_lake/
+ls
+ls
+ls
+vi test_panda_data_lake.py 
+ls
+ps

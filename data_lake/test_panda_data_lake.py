@@ -15,6 +15,7 @@ import boto3
 import json
 import pprint
 from datetime import datetime
+import pickle
 
 def create_elastic_connection_and_index():
     es_conn = connect_elasticsearch()
@@ -49,6 +50,7 @@ def push_meta_to_elastic(bucketname, fpath):
     index_name='datalake'
     record_type = 'odclite'
     store_record(es_conn, index_name, record_type, elastic_json_record)
+    return (elastic_json_record)
 
 
 
@@ -84,5 +86,8 @@ for fpath in paths:
         now = datetime.now()
         current_time = now.strftime("%H:%M:%S")
         print("Current Time =", current_time)
-    push_meta_to_elastic("dev-usgs-landsat", fpath)
+    my_meta_doc = push_meta_to_elastic("dev-usgs-landsat", fpath)
+    meta_doc_list.append(my_meta_doc)
+
+pickle.dump( meta_doc_list, open( "meta_docs_test_pickle.p", "wb" ) )
 
