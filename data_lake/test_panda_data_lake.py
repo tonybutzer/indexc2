@@ -46,6 +46,7 @@ def push_meta_to_elastic(bucketname, fpath):
     print("###"*30)
     pprint.pprint(elastic_json_record)
     index_name='datalake'
+    record_type = 'odclite'
     store_record(es_conn, index_name, record_type, elastic_json_record)
 
 
