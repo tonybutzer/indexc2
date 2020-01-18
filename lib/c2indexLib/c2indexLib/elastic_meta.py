@@ -51,7 +51,7 @@ def create_footprint(coord):
 
     } 
 
-    print (foot)
+    # print (foot)
 
     return foot
 

@@ -142,12 +142,12 @@ def get_metadata_docs_bucket_xml(bucket_name, prefix):
             meta_type = 'xml'
             dir_name=prefix
             meta_file_name=obj_key
-            print("DIRNAME:", dir_name, "META:", meta_file_name)
+            # print("DIRNAME:", dir_name, "META:", meta_file_name)
             my_dir = dir_name = os.path.dirname(meta_file_name)
-            print("MYDIR:", my_dir, "META:", meta_file_name)
+            # print("MYDIR:", my_dir, "META:", meta_file_name)
             my_dir = "s3://" + bucket_name + '/'  + my_dir
 
             metadata_doc = make_doc_from_meta_blob(raw_string, meta_type, my_dir, meta_file_name)
-            print(metadata_doc)
-            print(cnt)
+            # print(metadata_doc)
+            # print(cnt)
             yield obj_key, metadata_doc

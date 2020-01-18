@@ -17,7 +17,7 @@ def dl_panda_frame(path):
     li = []
 
     for filename in all_files:
-        print(filename)
+        # print(filename)
         #df = pd.read_csv(filename, index_col=None, header=0)
         df = pd.read_csv(filename, index_col=None, header=None, dtype=str)
         li.append(df)

@@ -1,8 +1,3 @@
-ls
-cd indexc2/
-ls
-cd prepare/
-ls
 cd hack/
 ls
 vi ls_public_bucket.py 
@@ -497,4 +492,9 @@ cd b
 cd data_lake/
 ls
 curl elasticsearch:9200 ; sleep 10
+make test-panda
+cd /opt/indexc2/
+cd data_lake/
+l
+curl elasticsearch:9200 ; sleep 6
 make test-panda
