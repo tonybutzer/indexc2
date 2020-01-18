@@ -78,6 +78,7 @@ paths = dl_generate_list_of_xmls("dev-usgs-landsat", pf)
 
 es_conn = create_elastic_connection_and_index()
 
+meta_doc_list=[]
 cnt = 0
 for fpath in paths:
     cnt = cnt + 1
@@ -89,5 +90,5 @@ for fpath in paths:
     my_meta_doc = push_meta_to_elastic("dev-usgs-landsat", fpath)
     meta_doc_list.append(my_meta_doc)
 
-pickle.dump( meta_doc_list, open( "meta_docs_test_pickle.p", "wb" ) )
+pickle.dump( meta_doc_list, open( "meta_docs_elastic_json_pickle.p", "wb" ) )
 

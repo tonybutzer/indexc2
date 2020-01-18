@@ -1,10 +1,3 @@
-python3
-ls
-cd /opt/
-ls
-cd indexc2/
-ls
-cd lib/
 ls
 cd tests/
 ls
@@ -498,3 +491,10 @@ ls
 vi test_panda_data_lake.py 
 ls
 ps
+curl elasticsearch:9200 ; sleep 6
+cd /opt/indexc2/
+cd data_lake/
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+make test-panda
