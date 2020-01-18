@@ -75,7 +75,7 @@ es_conn = create_elastic_connection_and_index()
 cnt = 0
 for fpath in paths:
     cnt = cnt + 1
-    if i % 40 == 0:
+    if cnt % 40 == 0:
         print(fpath)
     push_meta_to_elastic("dev-usgs-landsat", fpath)
 

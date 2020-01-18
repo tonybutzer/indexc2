@@ -463,3 +463,22 @@ curl elasticsearch:9200
 curl elasticsearch:9200
 curl elasticsearch:9200
 make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+make test-panda
