@@ -1,8 +1,3 @@
-ls
-cd indexc2/
-ls
-cd lib/tests/
-ls
 make 
 cd /opt/indexc2/
 ls
@@ -498,3 +493,8 @@ grep get_gl *.py
 vi meta_blob_from_xml.py
 grep get_gl *.py
 vi metadata_docs_bucket_xml.py
+ls
+cd /opt/indexc2/data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
+make test-panda
