@@ -44,14 +44,14 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
     ####
     level = meta_blob.product_id.split('_')[1]
     images, product_type = satellite_ref(meta_blob.satellite)
-    print("IMAGES",images)
+    # print("IMAGES",images)
     center_dt = meta_blob.acquisition_date + " " + meta_blob.scene_center_time
     start_time = center_dt
     end_time = center_dt
 
     #####
 
-    print(meta_blob.band_dict)
+    # print(meta_blob.band_dict)
     # print("FILE_NAME_BAND_4: ", meta_blob.band_dict['FILE_NAME_BAND_4'])
 
     #geo_guinea_pig = meta_blob.band_dict['FILE_NAME_BAND_4']
@@ -84,8 +84,8 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
              {'x': westxf,
               'y': southyf}}
 
-    print("COORD=", meta_blob.coord)
-    print("UPPER_LEFT=", geo_ref_points['ul'])
+    # print("COORD=", meta_blob.coord)
+    # print("UPPER_LEFT=", geo_ref_points['ul'])
     docdict = {
         'id': str(uuid.uuid4()),
         'processing_level': str(level),
@@ -118,7 +118,7 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
 
         'lineage': {'source_datasets': {}}
     }
-    print (docdict)
+    # print (docdict)
     return docdict
 
 
