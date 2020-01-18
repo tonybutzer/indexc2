@@ -29,10 +29,10 @@ def create_elastic_connection_and_index():
 
 
 def push_meta_to_elastic(bucketname, fpath):
-    print(fpath)
+    # print(fpath)
     my_dir = os.path.dirname(fpath)
     meta_file_name = os.path.basename(fpath)
-    print(my_dir, meta_file_name)
+    # print(my_dir, meta_file_name)
     meta_type = 'xml'
     s3 = boto3.resource('s3')
     replace_str = 's3://' + bucketname + '/'
@@ -40,10 +40,10 @@ def push_meta_to_elastic(bucketname, fpath):
     obj = s3.Object(bucketname, object_name)
     raw_string = obj.get()['Body'].read().decode('utf8')
     metadata_doc = make_doc_from_meta_blob(raw_string, meta_type, my_dir, meta_file_name)
-    print(metadata_doc)
+    # print(metadata_doc)
     elastic_ready_doc = elastic_flatten_doc(metadata_doc)
     elastic_json_record = json.dumps(elastic_ready_doc)
-    print("###"*30)
+    # print("###"*30)
     pprint.pprint(elastic_json_record)
     index_name='datalake'
     record_type = 'odclite'
@@ -72,7 +72,10 @@ paths = dl_generate_list_of_xmls("dev-usgs-landsat", aoi_pf)
 
 es_conn = create_elastic_connection_and_index()
 
+cnt = 0
 for fpath in paths:
-    print(fpath)
+    cnt = cnt + 1
+    if i % 40 == 0:
+        print(fpath)
     push_meta_to_elastic("dev-usgs-landsat", fpath)
 
