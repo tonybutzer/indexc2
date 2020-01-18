@@ -488,3 +488,10 @@ cd data_lake/
 curl elasticsearch:9200
 curl elasticsearch:9200 ; sleep 10
 make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+curl elasticsearch:9200 ; sleep 10
+curl elasticsearch:9200 ; sleep 10
+curl elasticsearch:9200 ; sleep 10
+make test-panda

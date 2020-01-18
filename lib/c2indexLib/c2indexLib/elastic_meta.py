@@ -20,7 +20,7 @@ def create_footprint(coord):
 
     # still need to figure out if its lon,lat or lat,lon
     # in most cases the routines are now longitude the latitude or (x then y)
-    print("TONY foot coord:", coord)
+    # print("TONY foot coord:", coord)
 
     foot = {
                 "type": "Polygon", 
