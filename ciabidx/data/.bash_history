@@ -1,12 +1,3 @@
-cd hack/
-ls
-vi ls_public_bucket.py 
-ls
-make index-nigeria
-make index-nigeria
-vi ls_public_bucket.py 
-make
-ls
 moer Makefile 
 more Makefile
 alias m='make index-nigeria'
@@ -496,5 +487,14 @@ make test-panda
 cd /opt/indexc2/
 cd data_lake/
 l
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+cd /opt/
+ls
+cd indexc2/
+ls
+cd data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
 curl elasticsearch:9200 ; sleep 6
 make test-panda

@@ -17,7 +17,7 @@ def get_projection_info(tif_file):
     # print("---" * 30)
     
     srs=osr.SpatialReference(wkt=prj)
-    if srs.IsProjected:
+    # if srs.IsProjected:
         # print (srs.GetAttrValue('projcs'))
     # print (srs.GetAttrValue('geogcs'))
 
