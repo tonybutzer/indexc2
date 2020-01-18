@@ -1,9 +1,3 @@
-cd
-ls
-mkdir tony
-cd tony
-ls
-git clone http://github.com/tonybutzer/indexc2
 ls
 cd indexc2/
 ls
@@ -494,6 +488,12 @@ curl elasticsearch:9200 ; sleep 10
 make test-panda
 cd /opt/indexc2/
 ls
+cd data_lake/
+ls
+curl elasticsearch:9200 ; sleep 10
+make test-panda
+cd /opt/indexc2/
+cd b
 cd data_lake/
 ls
 curl elasticsearch:9200 ; sleep 10
