@@ -27,6 +27,7 @@ verify-elastic:
 	docker-compose exec kibana curl elasticsearch:9200
 
 refresh-data:
+	rm -fr data/opt
 	mkdir data/opt
 	(cd data/opt; git clone http://github.com/tonybutzer/notebook)
 	(cd data/opt; git clone http://github.com/tonybutzer/indexc2)

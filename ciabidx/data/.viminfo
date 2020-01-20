@@ -11,15 +11,15 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/sensor_id
+~MSle0~/get_g
 
 # Command Line History (newest to oldest):
-:q
-|2,0,1579200069,,"q"
 :q!
-|2,0,1579197565,,"q!"
+|2,0,1579371757,,"q!"
+:q
+|2,0,1579371755,,"q"
 :wq
-|2,0,1579197562,,"wq"
+|2,0,1579371752,,"wq"
 :w!
 |2,0,1579193078,,"w!"
 :ew
@@ -28,6 +28,8 @@
 |2,0,1574966622,,"w"
 
 # Search String History (newest to oldest):
+?/get_g
+|2,1,1579309790,47,"get_g"
 ?/sensor_id
 |2,1,1575922601,47,"sensor_id"
 ?/con
@@ -59,40 +61,176 @@
 |3,0,36,0,1,0,1579193049,"c2l2tony"
 
 # File marks:
-'0  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
-|4,48,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
-'1  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
-|4,49,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
-'2  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
-|4,50,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
-'3  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,51,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
-'4  13  1  /opt/indexc2/prepare/Makefile
-|4,52,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
-'5  6  0  /opt/indexc2/README.md
-|4,53,6,0,1579182216,"/opt/indexc2/README.md"
-'6  11  22  /opt/indexc2/prepare/Makefile
-|4,54,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
-'7  11  22  /opt/indexc2/prepare/Makefile
-|4,55,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
-'8  481  12  /tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml
-|4,56,481,12,1575923495,"/tmp/LC08_L1GT_026028_20180110_20180120_01_A2.xml"
-'9  1  0  /opt/indexc2/prepare/Makefile
-|4,57,1,0,1575905607,"/opt/indexc2/prepare/Makefile"
+'0  52  0  /opt/indexc2/data_lake/test_panda_data_lake.py
+|4,48,52,0,1579371757,"/opt/indexc2/data_lake/test_panda_data_lake.py"
+'1  42  2  /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+|4,49,42,2,1579309802,"/opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py"
+'2  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py
+|4,50,1,0,1579309758,"/opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py"
+'3  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,51,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+'4  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,52,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+'5  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,53,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+'6  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
+|4,54,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
+'7  13  1  /opt/indexc2/prepare/Makefile
+|4,55,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
+'8  6  0  /opt/indexc2/README.md
+|4,56,6,0,1579182216,"/opt/indexc2/README.md"
+'9  11  22  /opt/indexc2/prepare/Makefile
+|4,57,11,22,1578689686,"/opt/indexc2/prepare/Makefile"
 
 # Jumplist (newest first):
+-'  52  0  /opt/indexc2/data_lake/test_panda_data_lake.py
+|4,39,52,0,1579371757,"/opt/indexc2/data_lake/test_panda_data_lake.py"
+-'  1  0  /opt/indexc2/data_lake/test_panda_data_lake.py
+|4,39,1,0,1579371726,"/opt/indexc2/data_lake/test_panda_data_lake.py"
+-'  42  2  /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+|4,39,42,2,1579309802,"/opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py"
+-'  42  2  /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+|4,39,42,2,1579309802,"/opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py"
+-'  2  0  /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+|4,39,2,0,1579309790,"/opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py"
+-'  2  0  /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+|4,39,2,0,1579309790,"/opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+|4,39,1,0,1579309766,"/opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+|4,39,1,0,1579309766,"/opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py
+|4,39,1,0,1579309758,"/opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py
+|4,39,1,0,1579309758,"/opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py
+|4,39,1,0,1579309758,"/opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py
+|4,39,1,0,1579309758,"/opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py"
 -'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
 |4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  61  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,61,0,1579200069,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
+-'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
+|4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
 -'  1  0  /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
 |4,39,1,0,1579199738,"/opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py"
 -'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
 |4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
 -'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
 |4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  43  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,43,20,1579197565,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
 -'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
 |4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
 -'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
 |4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  48  20  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,48,20,1579197557,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
+-'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
+|4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
 -'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
 |4,39,1,0,1579197540,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py"
 -'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_index.py
@@ -105,184 +243,67 @@
 |4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
 -'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
 |4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
--'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
-|4,39,1,0,1579197523,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
--'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
-|4,39,1,0,1579197523,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
--'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
-|4,39,1,0,1579197523,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
--'  1  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
-|4,39,1,0,1579197523,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  8  32  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,8,32,1579193083,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  1  0  /opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml
-|4,39,1,0,1579193041,"/opt/indexc2/product_definition/c1-l2-albers-scene-odc-product.yaml"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  13  1  /opt/indexc2/prepare/Makefile
-|4,39,13,1,1579191263,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  11  0  /opt/indexc2/prepare/Makefile
-|4,39,11,0,1579191255,"/opt/indexc2/prepare/Makefile"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  6  0  /opt/indexc2/README.md
-|4,39,6,0,1579182216,"/opt/indexc2/README.md"
--'  1  0  /opt/indexc2/README.md
-|4,39,1,0,1579181978,"/opt/indexc2/README.md"
--'  1  0  /opt/indexc2/README.md
-|4,39,1,0,1579181978,"/opt/indexc2/README.md"
--'  1  0  /opt/indexc2/README.md
-|4,39,1,0,1579181978,"/opt/indexc2/README.md"
--'  1  0  /opt/indexc2/README.md
-|4,39,1,0,1579181978,"/opt/indexc2/README.md"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
+-'  81  0  /opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py
+|4,39,81,0,1579197534,"/opt/indexc2/lib/c2indexLib/c2indexLib/elastic_meta.py"
 
 # History of marks within files (newest to oldest):
+
+> /opt/indexc2/data_lake/test_panda_data_lake.py
+	*	1579371755	0
+	"	52	0
+	^	52	0
+	.	52	0
+	+	52	0
+
+> /opt/indexc2/lib/c2indexLib/c2indexLib/metadata_docs_bucket_xml.py
+	*	1579309800	0
+	"	42	2
+	^	42	6
+	.	42	5
+	+	42	5
+	a	42	5
+
+> /opt/indexc2/lib/c2indexLib/c2indexLib/meta_blob_from_xml.py
+	*	1579309756	0
+	"	1	0
 
 > /opt/indexc2/prepare/index_hayden_c1l2_albers_scene.py
 	*	1579199998	0

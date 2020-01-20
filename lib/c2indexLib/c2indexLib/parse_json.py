@@ -58,7 +58,7 @@ def make_doc_from_json(raw_json, bucket_name, object_key):
              {'x': westxf,
               'y': southyf}}
 
-    print("TONY GEO:", geo_ref_points)
+    # print("TONY GEO:", geo_ref_points)
         
     docdict = {
         'id': str(uuid.uuid4()),
@@ -111,7 +111,7 @@ def get_metadata_docs_json(bucket_name, prefix):
     s3 = boto3.resource('s3')
     bucket = s3.Bucket(bucket_name)
     logging.info("Bucket : %s", bucket_name)
-    print(bucket_name, prefix)
+    # print(bucket_name, prefix)
     for obj in bucket.objects.filter(Prefix=prefix):
         # print(obj.key)
         if obj.key.endswith('.json') and not "ANG" in obj.key and not "MTL" in obj.key:

@@ -1,94 +1,3 @@
-pwd
-cd ..
-ls
-cd
-ls
-mkdir tony
-cd tony
-ls
-git clone http://github.com/tonybutzer/indexc2
-ls
-cd indexc2/
-ls
-cd prepare/
-ls
-cd hack/
-ls
-vi ls_public_bucket.py 
-ls
-make index-nigeria
-make index-nigeria
-vi ls_public_bucket.py 
-make
-ls
-moer Makefile 
-more Makefile
-alias m='make index-nigeria'
-m
-vi ls_public_bucket.py 
-m
-vi ls_public_bucket.py 
-m
-vi Makefile 
-m
-vi Makefile 
-make xml
-vi Makefile 
-m
-vi Makefile 
-m
-grep META *.py
-ls
-ls
-cd /opt
-ls
-cd indexc2/
-ls
-cd lib/
-ls
-cd tests/
-ls
-cd /opt/
-ls
-cd indexc2/
-ls
-cd lib/tests/
-ls
-make 
-cd /opt/indexc2/
-ls
-cd lib/tests/
-ls
-make
-datacube vesion
-datacube version
-datacube --version
-python3
-ls
-cd
-ls
-datcube system init
-datacube system init
-python3
-ls
-cd /opt/
-ls
-cd indexc2/
-ls
-cd lib/
-ls
-cd tests/
-ls
-make all
-ls -l
-cd /opt/indexc2/
-ls
-cd lib/tests/
-ls
-make 
-vi index_nigeria_test.py 
-ls
-cd
 ls
 ls -la .
 more .datacube.conf 
@@ -389,3 +298,203 @@ ls
 ls
 ls
 cp ../ciabidx/increment-version.py assess-my-data-lake.py
+ls
+cd opt/notebook/
+ls
+git status
+make
+make
+make
+make
+git push
+ls
+cd opt/
+ls
+cd indexc2/
+ls
+make
+make
+ls -lR
+cd indexc2/
+ls
+git status
+make
+make test-panda
+ls
+cd /opt/indexc2/
+ls
+cd data_lake/
+ls
+bash
+cd /opt/indexc2/data_lake/
+make test-panda
+ls
+cd /opt/indexc2/data_lake/
+ls
+make test-panda
+vf /opt/indexc2/
+ls
+cd /opt/indexc2/
+ls
+cd data_lake/
+ls
+ls
+make test-panda
+cd /opt/indexc2/data_lake/
+ls
+make test-panda
+curl elasticsearch:9200
+make test-panda
+cd /opt/indexc2/data_lake/
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+make test-panda
+t/in
+cd /opt/indexc2/
+ls
+cd data_lake/
+ls
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+curl elasticsearch:9200
+make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+curl elasticsearch:9200
+curl elasticsearch:9200 ; sleep 10
+make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+curl elasticsearch:9200 ; sleep 10
+curl elasticsearch:9200 ; sleep 10
+curl elasticsearch:9200 ; sleep 10
+make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+ls
+curl elasticsearch:9200 ; sleep 10
+make test-panda
+cd /opt/indexc2/
+cd b
+cd data_lake/
+ls
+curl elasticsearch:9200 ; sleep 10
+make test-panda
+cd /opt/indexc2/
+cd data_lake/
+l
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+cd /opt/
+ls
+cd indexc2/
+ls
+cd data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+cd /opt/indexc2/
+ls
+cd data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+ls
+cd ..
+ls
+cd ,,
+cd ..
+ls
+cd indexc2/
+ls
+cd lib/
+ls
+cd c2indexLib/
+ls
+cd c2indexLib/
+ls
+grep get_ *.py
+grep get_gl *.py
+vi meta_blob_from_xml.py
+grep get_gl *.py
+vi metadata_docs_bucket_xml.py
+ls
+cd /opt/indexc2/data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+ls
+cd /opt/indexc2/
+ks
+ls
+cd data_lake/
+ls
+ls
+ls
+vi test_panda_data_lake.py 
+ls
+ps
+curl elasticsearch:9200 ; sleep 6
+cd /opt/indexc2/
+cd data_lake/
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+ls
+cd /opt/indexc2/data_lake/
+ls
+curl elasticsearch:9200 ; sleep 6
+make test-panda
+ls
+id
+ls -l
+pwd
+cd
+pwd
+cd /notebooks/
+ls

@@ -199,12 +199,12 @@ class MetaBlob:
 
         # print(type(xmldoc))
         for band_name in bands:
-            print(band_name)
+            # print(band_name)
             band_file_name = self.directory + '/' + doc.find(".//" + band_name).text
-            print(band_file_name)
+            # print(band_file_name)
             self.band_dict[band_name] = band_file_name
-        pp = pprint.PrettyPrinter(depth=6)
-        pp.pprint (self.band_dict)
+        # pp = pprint.PrettyPrinter(depth=6)
+        # pp.pprint (self.band_dict)
 
 
     def set_band_file_names(self):
@@ -222,5 +222,5 @@ class MetaBlob:
             band_file_name = self.directory + '/' +file.text
             # print(band_file_name)
             self.band_dict[band_name] = band_file_name
-        pp = pprint.PrettyPrinter(depth=6)
-        pp.pprint (self.band_dict)
+        # pp = pprint.PrettyPrinter(depth=6)
+        # pp.pprint (self.band_dict)

@@ -16,11 +16,11 @@ import os
 from collections import OrderedDict
 
 
-def create_footprint(coord):
+def dl_create_footprint(coord):
 
     # still need to figure out if its lon,lat or lat,lon
     # in most cases the routines are now longitude the latitude or (x then y)
-    # print("TONY foot coord:", coord)
+    print("TONY foot coord:", coord)
 
     foot = {
                 "type": "Polygon", 
@@ -51,12 +51,12 @@ def create_footprint(coord):
 
     } 
 
-    # print (foot)
+    print (foot)
 
     return foot
 
-def elastic_flatten_doc(mdoc):
-    foot = create_footprint(mdoc['extent']['coord'])
+def dl_elastic_flatten_doc(mdoc):
+    foot = dl_create_footprint(mdoc['extent']['coord'])
     elastic_doc = {
                     'creation_dt': mdoc['creation_dt'],
                     'processing_level': mdoc['processing_level'],

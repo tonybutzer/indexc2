@@ -39,19 +39,19 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
     else:
         xml_raw = xml_string
     meta_blob = MetaBlob(directory, xml_raw)
-    meta_blob.get_global_metadata()
+    # meta_blob.get_global_metadata()
 
     ####
     level = meta_blob.product_id.split('_')[1]
     images, product_type = satellite_ref(meta_blob.satellite)
-    print("IMAGES",images)
+    # print("IMAGES",images)
     center_dt = meta_blob.acquisition_date + " " + meta_blob.scene_center_time
     start_time = center_dt
     end_time = center_dt
 
     #####
 
-    print(meta_blob.band_dict)
+    # print(meta_blob.band_dict)
     # print("FILE_NAME_BAND_4: ", meta_blob.band_dict['FILE_NAME_BAND_4'])
 
     #geo_guinea_pig = meta_blob.band_dict['FILE_NAME_BAND_4']
@@ -84,8 +84,8 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
              {'x': westxf,
               'y': southyf}}
 
-    print("COORD=", meta_blob.coord)
-    print("UPPER_LEFT=", geo_ref_points['ul'])
+    # print("COORD=", meta_blob.coord)
+    # print("UPPER_LEFT=", geo_ref_points['ul'])
     docdict = {
         'id': str(uuid.uuid4()),
         'processing_level': str(level),
@@ -118,7 +118,7 @@ def make_doc_from_meta_blob(xml_string, type, directory, meta_file_name):
 
         'lineage': {'source_datasets': {}}
     }
-    print (docdict)
+    # print (docdict)
     return docdict
 
 
@@ -142,12 +142,12 @@ def get_metadata_docs_bucket_xml(bucket_name, prefix):
             meta_type = 'xml'
             dir_name=prefix
             meta_file_name=obj_key
-            print("DIRNAME:", dir_name, "META:", meta_file_name)
+            # print("DIRNAME:", dir_name, "META:", meta_file_name)
             my_dir = dir_name = os.path.dirname(meta_file_name)
-            print("MYDIR:", my_dir, "META:", meta_file_name)
+            # print("MYDIR:", my_dir, "META:", meta_file_name)
             my_dir = "s3://" + bucket_name + '/'  + my_dir
 
             metadata_doc = make_doc_from_meta_blob(raw_string, meta_type, my_dir, meta_file_name)
-            print(metadata_doc)
-            print(cnt)
+            # print(metadata_doc)
+            # print(cnt)
             yield obj_key, metadata_doc
