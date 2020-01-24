@@ -1,6 +1,3 @@
-ls
-vi Makefile 
-make all
 cd /opt/indexc2/prepare/
 make runi
 cd /opt/indexc2/
@@ -498,3 +495,6 @@ pip install --extra-index-url="https://packages.dea.gadevs.ga" pip install --use
 pip install --extra-index-url="https://packages.dea.gadevs.ga" pip install --user --extra-index-url="https://packages.dea.gadevs.ga" odc-apps-dc-tools
 vi README.md 
 vi README.md 
+ls
+cd ..
+ls
