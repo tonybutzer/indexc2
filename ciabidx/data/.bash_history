@@ -1,127 +1,4 @@
 ls
-ls -la .
-more .datacube.conf 
-ls
-cp .datacube.conf tony/
-ls
-cd /opt/indexc2/lib/tests/
-ls
-make all
-ls -l
-ls -l
-cd /opt/indexc2/lib/tests/
-ls
-make all
-cd /opt/indexc2/lib/tests/
-ls
-make all
-ls -l
-cd /opt/
-ls
-cd indexc2/
-ls
-cd lib/tests/
-ls
-more Makefile 
-make initdb
-ls
-datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
-datacube product add /opt/indexc2/product_definition/usgs-level2-collection2-sample.odc-product.yaml 
-tail /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-view /opt/odc/docs/config_samples/dataset_types/ls_usgs.yaml
-su
-cd /opt/indexc2/lib/tests/
-ls
-make initdb
-datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
-make runi
-history
-cd /opt/
-ls
-cd indexc2/
-ls
-cd lib/tests/
-ls
-make all
-datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
-make runi
-psql
-ls
-cd /opt
-ls
-cd indexc2/lib/tests/
-ls
-more Makefile 
-make initdb
-datacube product add /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
-make runi
-cd /opt/indexc2/
-ls
-cd lib/tests/
-ls
-make all
-more Makefile 
-make product
-more /opt/indexc2/product_definition/tony-nigeria-odc-product.yaml 
-cd /opt/indexc2/lib/tests/
-make all
-datacube product list
-cd /opt/indexc2/lib/tests/
-ls
-datacube product list
-make all
-psql -h postgres -U opendatacube -W opendatacubepassword opendatacube
-psql --help
-psql -h $DB_HOSTNAME -U $DB_USERNAME -W $DB_PASSWORD $DB_DATABASE
-psql -h $DB_HOSTNAME -U $DB_USERNAME -W $DB_PASSWORD
-psql -h $DB_HOSTNAME -U $DB_USERNAME -W $DB_PASSWORD
-psql -h $DB_HOSTNAME -U $DB_USERNAME
-datacube products list
-datacube product list
-psql -h $DB_HOSTNAME -U $DB_USERNAME
-cd /opt/indexc2/lib/tests/
-ls
-ls -l
-make runi
-ls -l
-cd ..
-ls
-cd ..
-ls
-cd /opt/indexc2/
-ls
-cd lib/
-ls
-cd tests/
-ls
-make runi
-ls
-env
-psql -h postgres -U opendatacube
-ls
-make all
-exit
-cd /opt/indexc2/
-ls
-cd prepare/
-ls
-make
-cp ../lib/tests/.datacube.conf .
-ls
-cd /opt/indexc2/prepare/
-ls
-make runi
-ls
-more Makefile 
-make initdb
-make product
-ls /opt/indexc2/product_definition/
-cd /opt/
-ls
-cd indexc2/
-ls
-cd prepare/
-ls
 vi Makefile 
 make all
 cd /opt/indexc2/prepare/
@@ -498,3 +375,126 @@ cd
 pwd
 cd /notebooks/
 ls
+cd opt/notebook/
+la
+ls
+make
+make
+datacube system init
+cd opt/
+ls
+cd indexc2/
+ls
+cd 00-notebooks/
+ls
+make git
+cd ..
+ls
+make
+git pull
+make 
+git status
+git push
+make
+cd notebook/
+ls
+cd ..
+ls
+cd indexc2/
+ls
+git pull
+ls
+pwd
+make 
+cd ../notebook/
+make
+ls
+make 
+ls
+git status
+cd ../eoi/
+ls
+git status
+make
+cd opt/notebook/
+make
+make
+cd optno
+cd opt/notebook/
+ls
+make
+cd opt/notebook/
+make
+make
+tonybutzer
+tonybutzer100best
+make
+make
+ls
+cd opt
+ls
+git clone http://github.com/tonybutzer/eoi
+cd eo1
+cd eoi/
+ls
+cp ../notebook/Makefile .
+vi Makefile 
+make
+ls
+mkdir 00-notebooks
+cd 00-notebooks/
+ls
+Vi Makefile
+vi Makefile
+make git
+ls
+ls
+ls
+mkdir data
+ls
+vi .gitignore
+ls
+mkdir data/in
+mkdir data/out
+cd data/out/
+ls
+cd ../data/in
+ls
+cd ..
+ls
+cd usgs_ls8c_l2sp/185/052/2018/01/04/usgs_ls8c_l2sp_0-0-1_185052_2018-01-04.odc-metadata.yaml 
+cd usgs_ls8c_l2sp/185/052/2018/01/04/
+ls
+more usgs_ls8c_l2sp_0-0-1_185052_2018-01-04.odc-metadata.yaml 
+ll
+ls
+more usgs_ls8c_l2sp_0-0-1_185052_2018-01-04.proc-info.yaml 
+aws s3 ls ga-africa-provisional
+cd opt/
+ls
+cd eoi
+ls
+git status
+make
+ls
+cd opt/
+ls
+cd eoi
+ls
+cd 00-notebooks/
+ls
+cd ..
+ls
+git status
+vi README.md 
+make
+vi README.md 
+s3-find --help
+make
+vi README.md 
+make
+pip install --extra-index-url="https://packages.dea.gadevs.ga" pip install --user --extra-index-url="https://packages.dea.gadevs.ga" odc-apps-cloud      odc-apps-dc-tools
+pip install --extra-index-url="https://packages.dea.gadevs.ga" pip install --user --extra-index-url="https://packages.dea.gadevs.ga" odc-apps-cloud
+pip install --extra-index-url="https://packages.dea.gadevs.ga" pip install --user --extra-index-url="https://packages.dea.gadevs.ga" odc-apps-dc-tools
+vi README.md 
+vi README.md 
