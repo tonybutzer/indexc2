@@ -27,7 +27,7 @@ productc2:
 
 indexc2:
 	s3-find s3://deafrica-usgs-c2-data/usgs_ls8c_level2_2/157/*/*/*/*/*.odc-metadata.yaml | s3-to-tar >/notebooks/p157.tar
-	dc-index-from-tar --e03 < p157.tar
+	dc-index-from-tar --eo3 < /notebooks/p157.tar
 
 allc2:	initdbc2 metadatac2 productc2 indexc2
 
