@@ -3,6 +3,25 @@ collate index python code for populating an ODC postgresdb from L2 Landsat
 - C2-provisional data   ## eventually the real Collection 2
 - C1-L2-Albers-Scenes
 
+## INDEX C2 Africa from existing yamls
+
+```
+cd /opt/indexc2/ciabidx
+
+make down
+
+make build-just-indexc2
+
+make up
+
+make exec
+
+cd /opt/indexc2/prepare
+
+make all
+```
+
+test with notebook of bolama
 
 
 # HOWTO Run and Test Indexing

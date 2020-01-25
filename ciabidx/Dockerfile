@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y vim && apt-get install -y postgresql-cl
 # Install DEA Goodies for progress status
 RUN pip3 install --no-cache --extra-index-url="https://packages.dea.ga.gov.au" odc_ui odc_apps_cloud odc_apps_dc_tools
 
-ENV tversion=5.0
+ENV tversion=5.1
 RUN (cd /opt ; git clone http://github.com/tonybutzer/indexc2) \
 	&& (cd /opt/indexc2/lib; make build-root)
 
