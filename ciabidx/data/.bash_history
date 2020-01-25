@@ -1,20 +1,3 @@
-cd /opt/indexc2/prepare/
-make runi
-cd /opt/indexc2/
-ls
-cd docker/
-las
-la
-ls
-
-ls
-make runi
-make runi
-make runi
-ls
-make all
-cd /opt/indexc2/prepare/
-ls
 make all
 make drop
 make all
@@ -498,3 +481,20 @@ vi README.md
 ls
 cd ..
 ls
+ls
+cd /opt/indexc2/prepare/
+grep all Makefile 
+make allc2
+more Makefile 
+dc-index-from-tar --eo3 <</notebooks/p157.tar 
+
+'
+
+dc-index-from-tar --eo3 < /notebooks/p157.tar 
+cd opt/notebook/
+ls
+cd ../indexc2/
+ls
+git pull
+make
+make
