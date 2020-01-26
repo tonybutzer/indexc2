@@ -26,7 +26,7 @@ productc2:
 	datacube product add https://raw.githubusercontent.com/digitalearthafrica/config/ows-refactor/products/usgs-level2-collection2-sample.odc-product.yaml
 
 indexc2:
-	s3-find s3://deafrica-usgs-c2-data/usgs_ls8c_level2_2/157/*/*/*/*/*.odc-metadata.yaml | s3-to-tar >/notebooks/p204.tar
+	s3-find s3://deafrica-usgs-c2-data/usgs_ls8c_level2_2/204/*/*/*/*/*.odc-metadata.yaml | s3-to-tar >/notebooks/p204.tar
 	dc-index-from-tar --eo3 < /notebooks/p204.tar
 
 allc2:	initdbc2 metadatac2 productc2 indexc2

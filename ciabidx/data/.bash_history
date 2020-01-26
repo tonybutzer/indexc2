@@ -1,29 +1,3 @@
-make all
-make drop
-make all
-ls
-cd /opt/
-ls
-cd indexc2/
-ls
-cd prepare/
-ls
-more Makefile 
-make product
-ls
-more Makefile 
-vi Makefile 
-        datacube product add /opt/indexc2/product_definition/l2-odc-product.yaml
-cd /opt/
-ls
-cd indexc2/
-ls
-cd prepare/
-ls
-more Makefile 
-ld
-cd /opt/
-ls
 cd indexc2/
 ls
 cd prepare/
@@ -498,3 +472,29 @@ ls
 git pull
 make
 make
+ls
+cd opt/
+ls
+cd notebook/
+ls
+git pull
+cd /opt/indexc2/prepare/
+make allc2
+pip3 list |grep odc
+more Makefile 
+make indexc2
+ls
+ls ~/
+ls -l ~/
+more Makefile 
+dc-index-from-tar --eo3 < /notebooks/p204.tar
+pwd
+ls ~/opt/
+ls ~/
+ls -l ~
+more makefile
+more Makefile 
+s3-find s3://deafrica-usgs-c2-data/usgs_ls8c_level2_2/157/*/*/*/*/*.odc-metadata.yaml
+aws s3 ls
+more Makefile 
+aws s3 ls deafrica-usgs-c2-data
