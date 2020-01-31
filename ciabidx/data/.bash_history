@@ -1,13 +1,3 @@
-cd indexc2/
-ls
-cd prepare/
-ls
-make 
-make all
-ll
-datacube help
-datacube --help
-datacube product help
 datacube product --help
 datacube product list
 datacube product list |grep -v WARN
@@ -498,3 +488,13 @@ s3-find s3://deafrica-usgs-c2-data/usgs_ls8c_level2_2/157/*/*/*/*/*.odc-metadata
 aws s3 ls
 more Makefile 
 aws s3 ls deafrica-usgs-c2-data
+ls
+cd /opt/indexc2/prepare/
+make allc2
+ls
+las
+ls
+ls -l
+cd /opt/indexc2/prepare/
+make allc2
+ls
