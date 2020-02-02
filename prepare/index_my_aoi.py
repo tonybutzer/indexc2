@@ -16,7 +16,7 @@ def cli(verbose, path, row, year, product):
     print(path,row,year,product)
 
 
-    index_records(path,row,years)
+    index_records(path,row,year)
 
 
 
