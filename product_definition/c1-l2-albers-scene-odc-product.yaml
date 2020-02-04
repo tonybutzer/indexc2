@@ -6,7 +6,7 @@ metadata:
   instrument:
     name: OLI_TIRS
   product_type: c1l2scenealbers
-description: Sample USGS Level 2 Collection 2 Landsat for index testing
+description: Sample USGS Level 2 Collection 1-one Landsat for index testing
 measurements:
 - name: coastal_aerosol
   dtype: uint16
