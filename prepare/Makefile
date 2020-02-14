@@ -1,7 +1,7 @@
 echo:
 	echo hi 
 
-all:	initdb product runi
+all:	initdb product runi sanath
 
 initdb:
 	datacube system init
@@ -11,6 +11,9 @@ product:
 
 runi:
 	python3 index_hayden_c1l2_albers_scene.py
+
+sanath:
+	./ip041r035.sh
 
 drop:
 	./dropDatabaseTables.sh

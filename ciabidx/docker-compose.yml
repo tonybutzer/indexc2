@@ -19,7 +19,7 @@ services:
         # - AWS_ACCESS_KEY_ID=${ODC_ACCESS_KEY}
         # - AWS_SECRET_ACCESS_KEY=${ODC_SECRET_KEY}
     ports:
-      - "8888:8888"
+      - "8080:8888"
     volumes:
       - ./data:/notebooks
     shm_size: 1g
